@@ -1,0 +1,6 @@
+# Creating the ros.key
+
+The recv-key is from: http://wiki.ros.org/SnapshotRepository
+
+gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-key 4B63CF8FDE49746E98FA01DDAD19BAB3CBF125EA
+gpg --export --armor 4B63CF8FDE49746E98FA01DDAD19BAB3CBF125EA > ros.key

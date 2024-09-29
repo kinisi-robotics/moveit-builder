@@ -1,0 +1,62 @@
+name: stable-builder
+
+on:
+  workflow_dispatch:
+  push:
+
+env:
+  SYNC_DATESTAMP: "2024-08-28"
+  ROS_DISTRO: humble
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    env:
+      DEB_DISTRO: jammy
+    steps:
+      - name: ROS buildfarm
+        uses: jspricke/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: ${{ env.DEB_DISTRO }}
+          ROS_DISTRO: ${{ env.ROS_DISTRO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_ROS_REPOSITORY: true
+          SBUILD_CONF: |
+            $extra_repositories = ["deb http://snapshots.ros.org/${{ env.ROS_DISTRO }}/${{ env.SYNC_DATESTAMP }}/ubuntu ${{ env.DEB_DISTRO }} main"];
+            $extra_repository_keys = ["/home/runner/work/moveit-builder/moveit-builder/ros.key"];
+            $enable_network = 1;
+          SQUASH_HISTORY: true
+          REPOS_FILE: sources.repos
+          PACKAGES_BRANCH: stable-${{ env.SYNC_DATESTAMP }}
+  build-and-push:
+    # needs:
+    #   - build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ghcr.io/${{ github.repository }}
+          tags: |
+            type=raw,value=${{ env.ROS_DISTRO }}-${{ env.SYNC_DATESTAMP }}
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
