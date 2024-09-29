@@ -20,7 +20,7 @@ jobs:
       DEB_DISTRO: jammy
     steps:
       - name: ROS buildfarm
-        uses: jspricke/ros-deb-builder-action@main
+        uses: jspricke/ros-deb-builder-action@fab3cf5bff88987ef2e919342ad01d9dd39b479c
         with:
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
@@ -34,8 +34,8 @@ jobs:
           REPOS_FILE: sources.repos
           PACKAGES_BRANCH: stable-${{ env.SYNC_DATESTAMP }}
   build-and-push:
-    # needs:
-    #   - build
+    needs:
+      - build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
