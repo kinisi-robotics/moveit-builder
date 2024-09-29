@@ -9,7 +9,7 @@ env:
   ROS_DISTRO: humble
 
 permissions:
-  contents: read
+  contents: write
   packages: write
   id-token: write
 
@@ -20,7 +20,7 @@ jobs:
       DEB_DISTRO: jammy
     steps:
       - name: ROS buildfarm
-        uses: jspricke/ros-deb-builder-action@fab3cf5bff88987ef2e919342ad01d9dd39b479c
+        uses: jspricke/ros-deb-builder-action@main
         with:
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
