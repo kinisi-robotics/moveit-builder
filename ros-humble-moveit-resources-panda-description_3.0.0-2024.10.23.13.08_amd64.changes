@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 19 Feb 2024 00:00:00 -0000
+Source: ros-humble-moveit-resources-panda-description
+Binary: ros-humble-moveit-resources-panda-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2024.10.23.13.08
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-resources-panda-description - panda Resources used for MoveIt testing
+Changes:
+ ros-humble-moveit-resources-panda-description (3.0.0-2024.10.23.13.08) jammy; urgency=high
+ .
+   * Create Panda URDF Xacro, restore URDF for RobotModelTestUtils (#178 <https://github.com/ros-planning/moveit_resources/issues/178>)
+   * Apply inertial,dynamics and fix mesh locations (#176 <https://github.com/ros-planning/moveit_resources/issues/176>)
+   * Contributors: Henning Kayser
+Checksums-Sha1:
+ eab5cd76b9215749dc5a18374eb180050e418dcd 9311 ros-humble-moveit-resources-panda-description_3.0.0-2024.10.23.13.08_amd64.buildinfo
+ 75cc958f48ee1899d1fce7306cabf8c55724e541 3138172 ros-humble-moveit-resources-panda-description_3.0.0-2024.10.23.13.08_amd64.deb
+Checksums-Sha256:
+ d4a26f2bbef5446e01ec147128a72adc208d90528066040001ad811b922a096c 9311 ros-humble-moveit-resources-panda-description_3.0.0-2024.10.23.13.08_amd64.buildinfo
+ f72349c70057cc65b9cd70d1fec270248243c81cd8132104650373440c8fbb00 3138172 ros-humble-moveit-resources-panda-description_3.0.0-2024.10.23.13.08_amd64.deb
+Files:
+ 5fb6db0196a2e41afc170df2723a6c4c 9311 misc optional ros-humble-moveit-resources-panda-description_3.0.0-2024.10.23.13.08_amd64.buildinfo
+ 06cd804431958ebf1575b27b53f9ea22 3138172 misc optional ros-humble-moveit-resources-panda-description_3.0.0-2024.10.23.13.08_amd64.deb
