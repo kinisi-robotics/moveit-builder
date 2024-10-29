@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 19 Feb 2024 00:00:00 -0000
+Source: ros-humble-moveit-resources-pr2-description
+Binary: ros-humble-moveit-resources-pr2-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2024.10.29.11.18
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-resources-pr2-description - PR2 Resources used for MoveIt! testing
+Changes:
+ ros-humble-moveit-resources-pr2-description (3.0.0-2024.10.29.11.18) jammy; urgency=high
+Checksums-Sha1:
+ fc8d992787c9147963536e82b78542d807788369 9304 ros-humble-moveit-resources-pr2-description_3.0.0-2024.10.29.11.18_amd64.buildinfo
+ 9225cbb57715c6a9cd8ac18b1ff3abc09f6abd8c 24385540 ros-humble-moveit-resources-pr2-description_3.0.0-2024.10.29.11.18_amd64.deb
+Checksums-Sha256:
+ 11427cbf7367fa4b4e6fa3fe69338e572d3309db8a1069a03cd27d36361b83d9 9304 ros-humble-moveit-resources-pr2-description_3.0.0-2024.10.29.11.18_amd64.buildinfo
+ aefaf4f4efc8e31df00cc3f53c536186292cb43f11f81e4de5e5c8029e574d5f 24385540 ros-humble-moveit-resources-pr2-description_3.0.0-2024.10.29.11.18_amd64.deb
+Files:
+ 22f6b06c87e4e405e3571d9a9e644188 9304 misc optional ros-humble-moveit-resources-pr2-description_3.0.0-2024.10.29.11.18_amd64.buildinfo
+ a4080e37fc17529a58cdddd6ab576398 24385540 misc optional ros-humble-moveit-resources-pr2-description_3.0.0-2024.10.29.11.18_amd64.deb
