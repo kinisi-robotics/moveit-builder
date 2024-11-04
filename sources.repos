@@ -2,7 +2,7 @@ repositories:
   moveit2:
     type: git
     url: https://github.com/JafarAbdi/moveit2.git
-    version: 100.0.3
+    version: 100.0.4
   moveit_msgs:
     type: git
     url: https://github.com/moveit/moveit_msgs.git
