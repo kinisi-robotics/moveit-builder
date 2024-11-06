@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 16 Sep 2024 00:00:00 -0000
+Source: ros-humble-moveit-msgs
+Binary: ros-humble-moveit-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-2024.11.06.19.18
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-msgs - Messages, services and actions used by MoveIt
+Changes:
+ ros-humble-moveit-msgs (2.6.0-2024.11.06.19.18) jammy; urgency=high
+ .
+   * Add services for LoadGeometryFromFile and SaveGeometryToFile services (#181 <https://github.com/ros-planning/moveit_msgs/issues/181>)
+   * Contributors: Bilal Gill
+Checksums-Sha1:
+ 8279a83f1ebfb05dadbd5541c12b3c092c0a736f 13301996 ros-humble-moveit-msgs-dbgsym_2.6.0-2024.11.06.19.18_amd64.ddeb
+ 116dca2f7b3a25dd6aabfe5c3a1c46e55771cf49 13395 ros-humble-moveit-msgs_2.6.0-2024.11.06.19.18_amd64.buildinfo
+ a4d9934fce295e5972942df91cc7c0c880026379 1059240 ros-humble-moveit-msgs_2.6.0-2024.11.06.19.18_amd64.deb
+Checksums-Sha256:
+ 461bad500eddea9f833358f8d9bd20c5ede6110e26aa0c2bd9c5be07218ae99f 13301996 ros-humble-moveit-msgs-dbgsym_2.6.0-2024.11.06.19.18_amd64.ddeb
+ 866a904da13455e177dcc124372198c804a9e85e54f1ef55831636c7b416ab84 13395 ros-humble-moveit-msgs_2.6.0-2024.11.06.19.18_amd64.buildinfo
+ 772fc804079fa7105934edce04d91f14bf80e09b55701c07bba3f5fb6cf6f9be 1059240 ros-humble-moveit-msgs_2.6.0-2024.11.06.19.18_amd64.deb
+Files:
+ 909863a960dd374aa7b20fee9c85f117 13301996 debug optional ros-humble-moveit-msgs-dbgsym_2.6.0-2024.11.06.19.18_amd64.ddeb
+ 3e28ec8f2e51c8b8201517fee54c45e3 13395 misc optional ros-humble-moveit-msgs_2.6.0-2024.11.06.19.18_amd64.buildinfo
+ d8ecbd81d3e4697939dedcd1ef4ed6b5 1059240 misc optional ros-humble-moveit-msgs_2.6.0-2024.11.06.19.18_amd64.deb
