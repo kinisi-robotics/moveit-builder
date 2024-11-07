@@ -1,0 +1,1443 @@
+Package: ros-humble-chomp-motion-planner-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-chomp-motion-planner
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Installed-Size: 6969
+Depends: ros-humble-chomp-motion-planner (= 100.0.5-2024.11.07.13.17)
+Filename: ./ros-humble-chomp-motion-planner-dbgsym_100.0.5-2024.11.07.13.17_amd64.ddeb
+Size: 7010966
+MD5sum: 4a1c4dfb1f4990bd8a48477d7460f4d3
+SHA1: 5a46f8583d966d4ed316224b6ce48b6f80f082fb
+SHA256: f62b7f211457f0d8abb2b31201577239bd91f9b31587474cdd41cce4982efc36
+SHA512: 9cbda63e6b3f7c8b7050756400ede7a04879faa6db9bc5d24f0cb9c041f49aa2d2665ab8bb22a63d4d04480d3c418f08cd1df7598da2b350d1c28d4cee3a1ac8
+Description: debug symbols for ros-humble-chomp-motion-planner
+Build-Ids: 251e701742c60ac123c68b860e81ff8a2a21ab32
+
+Package: ros-humble-chomp-motion-planner
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.17
+Priority: optional
+Section: misc
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Installed-Size: 310
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-moveit-common, ros-humble-rclcpp, ros-humble-rsl, ros-humble-trajectory-msgs
+Filename: ./ros-humble-chomp-motion-planner_100.0.5-2024.11.07.13.17_amd64.deb
+Size: 104254
+MD5sum: 69c99826d62b021cfec3ac83a1ac5764
+SHA1: 2173117dea292fbed59097b6919a94495841bf4a
+SHA256: 362da00c14d811611d28ae643577ae83389b5d6565bb4f18421f666d202731ad
+SHA512: ce479326068ea4906ee6468b40b06049c86dc362ae68916c7dbf143a58264c001c2a6b3181b5c62b86861941007822dfb5d38b18a39d4759f6925d83afee0535
+Homepage: http://ros.org/wiki/chomp_motion_planner
+Description: chomp_motion_planner
+
+Package: ros-humble-dual-arm-panda-moveit-config
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.00
+Priority: optional
+Section: misc
+Maintainer: Mike Lautman <mike@picknik.ai>
+Installed-Size: 122
+Depends: ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-moveit-resources-panda-description, ros-humble-robot-state-publisher, ros-humble-topic-tools, ros-humble-xacro
+Filename: ./ros-humble-dual-arm-panda-moveit-config_3.0.0-2024.11.07.13.00_amd64.deb
+Size: 15434
+MD5sum: 330e564b1a433e5f089ba3d8b287fdce
+SHA1: 69131273eb7aeff2d92bb05b52fbdb958adcae0c
+SHA256: 5cddd548b8af92c78b3acf1d97c0146715a33798a5bb83730fe42000274d36c0
+SHA512: eb8812ba63421e3c8fc9fdc44731d3e165cb3f5e0dc0990f1c43e38754c78a87fd65dedb732491ff09f1f591bf248204c015a7167aba7ee8ee602e0339770347
+Homepage: http://moveit.ros.org/
+Description: Dual Franka Emika Panda MoveIt Configuration
+
+Package: ros-humble-moveit-common
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.01
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 49
+Depends: ros-humble-backward-ros
+Filename: ./ros-humble-moveit-common_100.0.5-2024.11.07.13.01_amd64.deb
+Size: 9012
+MD5sum: 9bb3e6644918f933f3b3f46b46c3aff1
+SHA1: 015ff994a3c00eacf3441147dffed61b9ebbd66e
+SHA256: b81bf158b63f3e12c3ce4cc3773abb2c6657dd4b84e7018f0a7e3a530f8f4728
+SHA512: d26b8719dbddf80de428162773be4ee51a3ab26c1f347c6ece0c13780b25118008270fc2aa6c9d5257cd0e9b40d09a0a3b7792c195f49773b9d730e5b2eb4884
+Homepage: http://moveit.ros.org
+Description: Common support functionality used throughout MoveIt
+
+Package: ros-humble-moveit-configs-utils
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.02
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 120
+Depends: ros-humble-ament-index-python, ros-humble-launch, ros-humble-launch-param-builder, ros-humble-launch-ros, ros-humble-srdfdom
+Filename: ./ros-humble-moveit-configs-utils_100.0.5-2024.11.07.13.02_amd64.deb
+Size: 24820
+MD5sum: fc53a54bdff0237f0aee3032b7a75801
+SHA1: 3725a5c8805574f8d0960dce9267a2cd3394c4e6
+SHA256: 68cd49c642fad5808dcb1c652df9e17867248baecb44005f2eaa22b4d90983ce
+SHA512: 7feb5ce984bddc7f121f28852e8ab4c555d041745506c595e842b731c458cdbdb790bb7cc57d2e24e23d047a7b13138fcd25e77745ae7ed82910dcf19a384fe3
+Description: Python library for loading moveit config parameters in launch files
+
+Package: ros-humble-moveit-core-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.10
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-core
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 74344
+Depends: ros-humble-moveit-core (= 100.0.5-2024.11.07.13.10)
+Filename: ./ros-humble-moveit-core-dbgsym_100.0.5-2024.11.07.13.10_amd64.ddeb
+Size: 74029332
+MD5sum: 4a44f0344e364965386af49af3640b61
+SHA1: 5781f0ad5d5d9a93676b2de9c5a21781a3f0634a
+SHA256: 342841af7a5388abb2e3e6cdcc7fe2acb35f44d956477a956c8d29deee290d8a
+SHA512: 2bb2b5b09594bf901adb404cac408f440b22d2d72adaed0ff8b59a4f9a45d5a44887a1ac75e99ebe5d6fd299c129baeb5fea6f7f2a80f73366dd972cb852a4a9
+Description: debug symbols for ros-humble-moveit-core
+Build-Ids: 08cb18fc7d6ca6cda8fad84a2ee6ab0d2f9863a6 15d62aa1919f24ca4af93e707783c9b20851f596 17cf2d05e46a5dda12af005f642b6f9a5bf7607a 1ba1bf59518369363e1d593befb7b604761b20b6 21c047fd77c2f5e911ddc82b3a8855d6ba42ba4b 2a9d5406c3446b71d3b59f446420f4244f4bd16d 2b8eae221a850a0aea3648a5c53210f81409453c 2ea4ae93617a6dcb2d1881008154cad5feef0cb6 31488dc7f06cd60d520142391e371b10febf68ec 328395449ae2949a5d2f166c6a78833ab1d93e0f 54972b1f11a239073f4e4b928328483b4dd22d6c a2e41419fc0b8183df123ca80753093e52bb5ca6 b3463f8fd4088364bed6e7c15d3c04ddb738dfb8 b3e888a3d142295d07979544f83f12d2324f34e4 b61cd378bd0ed4d762bc63de310e54689efc4a13 b65f82da384288f4787ec598d08a7747ae85f21f bbfe97a2e2855045171b4261b4396775318e17ac c084ba60611837f49e0ef8049a6a9b0694c4e32b c364812a4165588f0518ccce82fa64b443667c6d c3df8c71ad232998dc98e721dd1f5c0d8d02a961 d2b667aa603214515ca179e6f5a55777d9112f32 d3c74370d3ea063e78845fbcb59efb85cef2f5f6 d7e3099be7723898cf761af2d39abe388a530de2 dbe284f856b6e12976ce82c7e5888a54431a0579 dd5b3069f73584439fc7ae4611dd5bc7fec1fb6e e642d5fe528d31045a20f11abd8eb549234c170e f18a1c584d2f382eb39b8232b16aa198664f2bd0
+
+Package: ros-humble-moveit-core
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.10
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 5217
+Depends: libboost-iostreams1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-geometric-shapes, ros-humble-octomap, ros-humble-srdfdom, ros-humble-urdfdom, libassimp-dev, libboost-all-dev, libbullet-dev, libeigen3-dev, libfcl-dev, liboctomap-dev, ros-humble-angles, ros-humble-common-interfaces, ros-humble-eigen-stl-containers, ros-humble-eigen3-cmake-module, ros-humble-generate-parameter-library, ros-humble-geometry-msgs, ros-humble-google-benchmark-vendor, ros-humble-kdl-parser, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-octomap-msgs, ros-humble-osqp-vendor, ros-humble-pluginlib, ros-humble-random-numbers, ros-humble-rclcpp, ros-humble-rsl, ros-humble-ruckig, ros-humble-sensor-msgs, ros-humble-shape-msgs, ros-humble-std-msgs, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-kdl, ros-humble-trajectory-msgs, ros-humble-urdf, ros-humble-urdfdom-headers, ros-humble-visualization-msgs
+Filename: ./ros-humble-moveit-core_100.0.5-2024.11.07.13.10_amd64.deb
+Size: 1312056
+MD5sum: 3f050543105424f59b730c804c9b48ae
+SHA1: c8f4571aca15d21ae14b5605aec6f7bb76ad1650
+SHA256: 0bd2df7c2883d8b144a10f4edcc588f8294e0230fb4b0e286d3ac58f1d48dee3
+SHA512: 9148ba14bfbba28bcafb429a99b948012cad16c432c8db2ffd884aed2f666c46d922f353c275338f34f954d90d349752399e54f9d0b5d8e06e3bf10f1e8e1c10
+Homepage: http://moveit.ros.org
+Description: Core libraries used by MoveIt
+
+Package: ros-humble-moveit-hybrid-planning-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.59
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-hybrid-planning
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 21309
+Depends: ros-humble-moveit-hybrid-planning (= 100.0.5-2024.11.07.13.59)
+Filename: ./ros-humble-moveit-hybrid-planning-dbgsym_100.0.5-2024.11.07.13.59_amd64.ddeb
+Size: 20109888
+MD5sum: 8d7f79bf4175f526aec9185ae6a9c81c
+SHA1: d43b370a613c9061a185f3a63e2ae59bb2a5afe0
+SHA256: 98b4adb1f346822fce36e37597e754599ca4871a856c2255d180043e4d503fa8
+SHA512: 9285ac37307315a78b53bf88890fb2a4c1bad504520242777bc2ed41b5128708527e58dec11059c31e221749265258b0eee6c35baf28d491f3e5052d525232f5
+Description: debug symbols for ros-humble-moveit-hybrid-planning
+Build-Ids: 652262c9091d2747f6f65af147cf4c0cad101dcd 6d48d1660418cc33166855fdc7901bf425be0159 724a8ab5ce2b74e2a02552979f249b33c38abad3 9380889aa80d0197de2c2e1cd2bea9c086f7d998 a2b35b428847185eeb37dd0aa378a02cc9cf86e2 af53f2208338a047cc15609e9db2f8759f1e2623 bf1ecf3f574797f45c331f158bf27a98a8e2fb10 fafd90bd9c3de3473b3fab63e6b01c79c89bbd0d ff4b084691ffe7daf7393d78b34bfb04f18ab85c
+
+Package: ros-humble-moveit-hybrid-planning
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.59
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 2815
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-ament-index-cpp, ros-humble-controller-manager, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-moveit-resources-panda-moveit-config, ros-humble-moveit-ros-planning-interface, ros-humble-pluginlib, ros-humble-position-controllers, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-ros, ros-humble-trajectory-msgs
+Filename: ./ros-humble-moveit-hybrid-planning_100.0.5-2024.11.07.13.59_amd64.deb
+Size: 553152
+MD5sum: 620bbb32143c4dafa31683aa174f9197
+SHA1: 35fdf130b1830c75559b3ec710f9b3d39437759e
+SHA256: a75b359179bbab18ad741415ac1e46884f10fa29047eb05590bd014466fac811
+SHA512: cc809e3622da6e631f72ca05d08f5233a7ebbee0d8e066c9957e2971868c581f6c5dc43690005221087a76e82349fd3af641be0cacfb25ae7922587ae0600884
+Homepage: http://moveit.ros.org
+Description: Hybrid planning components of MoveIt 2
+
+Package: ros-humble-moveit-kinematics-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.34
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-kinematics
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 9104
+Depends: ros-humble-moveit-kinematics (= 100.0.5-2024.11.07.13.34)
+Filename: ./ros-humble-moveit-kinematics-dbgsym_100.0.5-2024.11.07.13.34_amd64.ddeb
+Size: 9051272
+MD5sum: 6d5caf7f5f991ff1a20cff3fd2f44225
+SHA1: 5384e0b7880b9b3c15164306ae39e6cbbbc7a088
+SHA256: c8bf331a2aefd52bbc011cd042c0e1dd00c9832cda1b4bb9dd4d02644747b371
+SHA512: 15914dc3144e9f60343fbba197d29706f52268e725257ad0c5db92d458f5f8353cac7d5494a97a86de0c1bf1a625f15db232ae17a67cabb33876f98ac573be91
+Description: debug symbols for ros-humble-moveit-kinematics
+Build-Ids: 0799a5d4525c00bea68504b10e86f8529e078e5d 4edef2d92db3148eb157aa9ffa332e6db7ac7309 99fe5c60409308c01eb647698e862dc30ce1c777 d6e70be456eed5171797a79f8c0edee1dfe4d581
+
+Package: ros-humble-moveit-kinematics
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.34
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 897
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-humble-moveit-core, libeigen3-dev, python3-lxml, ros-humble-class-loader, ros-humble-generate-parameter-library, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-moveit-ros-planning, ros-humble-orocos-kdl-vendor, ros-humble-pluginlib, ros-humble-rsl, ros-humble-tf2, ros-humble-tf2-kdl, ros-humble-urdfdom
+Filename: ./ros-humble-moveit-kinematics_100.0.5-2024.11.07.13.34_amd64.deb
+Size: 229150
+MD5sum: 835174ff3d096f31a1dcda850039cca7
+SHA1: 571347af6ceaf90783e6afb597c254ea1ced0ca9
+SHA256: 110604ba4e6ebc2b9b922073de0d9e796f9a8a6119ce89dca6dfb28c2864282b
+SHA512: c867ac4036c1873a5ca20306c3bc08229ecd008dfca33e45ab2b8cb83b8614317927fd25234e5ff46ca72e013c4f49b32f9c4ee64890cfdd98e2b5fb4b4d41c5
+Homepage: http://moveit.ros.org
+Description: Package for all inverse kinematics solvers in MoveIt
+
+Package: ros-humble-moveit-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.6.0-2024.11.07.13.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-msgs
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 15858
+Depends: ros-humble-moveit-msgs (= 2.6.0-2024.11.07.13.03)
+Filename: ./ros-humble-moveit-msgs-dbgsym_2.6.0-2024.11.07.13.03_amd64.ddeb
+Size: 12514518
+MD5sum: fc8d774225ef45381894b38fbdb2e040
+SHA1: cca97d6baf57caf313771075cc5570ae1154d583
+SHA256: c96c6b6d906ed8d8ed8c84183fd5a3bb995e22448cf6c2fe8f19d6116d024bf6
+SHA512: 7705595e45d5194348d41f2a44a27c7c2b17654f97926960e0d737efdce2ae4f95db09f517be8fb96bb63b823e76465c481b370fd09038cbdbbb4617440a17bb
+Description: debug symbols for ros-humble-moveit-msgs
+Build-Ids: 0ecbad601e666c712c7819217d69ab6f945f8ef2 1fc07b87b551d3522e7f5388bde8bdce47be54c9 25634aa369bb1eacbfbbb39aab7ac0563a52b007 2aba73cdd5e26900c89046a6b66a55b5bba492b3 42918a8872331ee6ea46a2a069474378763e6681 64d2fb2f63136071f30edf4e5c579b750e3b0d26 73b6daa010d769186fe017e6a6ab9a2b4ac3bdf2 c6023598260c9c78601694080ef61829ca8526b9 e230d7a1b76ca065a06b439b0dc53ab9a84d0f5f e300cd7ed92c952193f80443778226c293cde2a8 f821207719a3def5e70b82b59d5e988152bea357 fac0a469132dccd96a83a3d5dc1f2be1c15c0f02
+
+Package: ros-humble-moveit-msgs
+Architecture: amd64
+Version: 2.6.0-2024.11.07.13.03
+Priority: optional
+Section: misc
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 18441
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-action-msgs, ros-humble-geometry-msgs, ros-humble-object-recognition-msgs, ros-humble-octomap-msgs, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs, ros-humble-shape-msgs, ros-humble-std-msgs, ros-humble-trajectory-msgs
+Filename: ./ros-humble-moveit-msgs_2.6.0-2024.11.07.13.03_amd64.deb
+Size: 1059348
+MD5sum: 933bbd01d582891898159437881dd31e
+SHA1: 03e1d27a88a979d92c734fc7c34d9e7d5efd805d
+SHA256: 28a6c0d2441f6fbd093274fbaf06a5bbc32977c2b04a5c7158fece79d34cb2fc
+SHA512: b2d4560e8fb36a2157f99e7c7047f7bd1236d88b72ef8b37300f82e34a32c178325dd84655fa7d8764c6a50d9d4a50834c737da317b0195a41227f4af9e472be
+Homepage: http://moveit.ros.org
+Description: Messages, services and actions used by MoveIt
+
+Package: ros-humble-moveit-planners-chomp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.18
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-planners-chomp
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Installed-Size: 4488
+Depends: ros-humble-moveit-planners-chomp (= 100.0.5-2024.11.07.13.18)
+Filename: ./ros-humble-moveit-planners-chomp-dbgsym_100.0.5-2024.11.07.13.18_amd64.ddeb
+Size: 4504746
+MD5sum: 1b24337704a67f787cb41e243638e979
+SHA1: 95188c9a8cbddf5babba3b29d26cc286c910a99c
+SHA256: 407beb3b5d09ddda3155b1a50a965cb3f1a15598eb54b259f9d0bb3fc67221f3
+SHA512: 1a14afae543d73aaf892121a7ddb72a1954e850ebfeb14480bc68fe7a53fdcb15fdfed25e65340a5ae09d7de3254a2de8da0e9b2c1134782514afbfad91a2324
+Description: debug symbols for ros-humble-moveit-planners-chomp
+Build-Ids: bf5df1a787d2d0dab9068fb26c327723a28258f4 f8d8e67f9af2d811675c413c439b0f6868ce66e2
+
+Package: ros-humble-moveit-planners-chomp
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.18
+Priority: optional
+Section: misc
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Installed-Size: 156
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-chomp-motion-planner, ros-humble-moveit-core, ros-humble-moveit-common, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-moveit-planners-chomp_100.0.5-2024.11.07.13.18_amd64.deb
+Size: 37068
+MD5sum: d73c948b1f9189151d742b53cac89753
+SHA1: 0fc7dc263354d1d228f32fa256598fdbc3bb2d31
+SHA256: 1c2c2ae930f6245a798a2089a77cfdef2e32c06956a183d43132f4df5096f135
+SHA512: a030e9a959a6752e3569067d1f18967e5b141e7b25d7c14cccbd451717823cf7c8e7997561fac4c433114b17de8bb41da7de719ea71b669969eaf071b21a3c3b
+Description: The interface for using CHOMP within MoveIt
+
+Package: ros-humble-moveit-planners-ompl-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.36
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-planners-ompl
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 23574
+Depends: ros-humble-moveit-planners-ompl (= 100.0.5-2024.11.07.13.36)
+Filename: ./ros-humble-moveit-planners-ompl-dbgsym_100.0.5-2024.11.07.13.36_amd64.ddeb
+Size: 23086012
+MD5sum: 03132c753d5bd9691fbed5511d530484
+SHA1: 3c82b3180e8ec1ec4d4f1045776118c965ab0ba0
+SHA256: 5e4ad53d596eb497a272b72c5e3e88efed37f4638f68fa23c5e5486b1b99b415
+SHA512: 6d8f2cd17ee80d45598ab89fc81701ab318d451673831667f066dc1458f9a1a548a0f8fe2c764efa623467a728e1cc7482cdd82cfac2ef521f68589a497bee32
+Description: debug symbols for ros-humble-moveit-planners-ompl
+Build-Ids: 0822c391f6efc6c4e090aeed60a27526f30db2de 3e8700547226b2870766b7a124204390e741d3cc a0a3dcfa89791106ec6a4b621d558874d7735f0f
+
+Package: ros-humble-moveit-planners-ompl
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.36
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1493
+Depends: libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-ompl, libomp-dev, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-tf2-eigen, ros-humble-tf2-ros
+Filename: ./ros-humble-moveit-planners-ompl_100.0.5-2024.11.07.13.36_amd64.deb
+Size: 342162
+MD5sum: 73cf25f856862588bd9a9ef4dad89ceb
+SHA1: f50474ec84fb7199dcb7ce3486a4438c208accac
+SHA256: 7c1fae706abca92f21c5d9190c789138a41f6a35ca008bbd6c2dc5c64e288af5
+SHA512: bd4dcab1998b4347bff1a7c615edef97318eb5371c6d552bf45e2f66c8359526ca0037d35bbcee0a95e58c91a06ebea23caf26aea51dc7a87aa94804447a1721
+Homepage: http://moveit.ros.org
+Description: MoveIt interface to OMPL
+
+Package: ros-humble-moveit-planners-stomp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-planners-stomp
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 5485
+Depends: ros-humble-moveit-planners-stomp (= 100.0.5-2024.11.07.13.20)
+Filename: ./ros-humble-moveit-planners-stomp-dbgsym_100.0.5-2024.11.07.13.20_amd64.ddeb
+Size: 5406776
+MD5sum: e0c6504e28b39d1cf70aebe9217daf0c
+SHA1: 6a942eede9e20033b0b5e28a819f2366f65530b6
+SHA256: d0bb9820d824f6faeda4c38eb4c0472289729761bcb969a56ab5672433f70db8
+SHA512: 7e97bfc9f53d7c7ea2dd205de6081a385047f8f4903d34848612272656dd0121fa3cf8fa986e9eb2759c2ebf1edd2b90319b8e700a58a82819263c75170552fe
+Description: debug symbols for ros-humble-moveit-planners-stomp
+Build-Ids: af78f64084d1d69648ef0fd630e47419b9aa46a2
+
+Package: ros-humble-moveit-planners-stomp
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.20
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 443
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-generate-parameter-library, ros-humble-moveit-common, ros-humble-rsl, ros-humble-std-msgs, ros-humble-stomp, ros-humble-tf2-eigen, ros-humble-visualization-msgs
+Filename: ./ros-humble-moveit-planners-stomp_100.0.5-2024.11.07.13.20_amd64.deb
+Size: 137176
+MD5sum: 639a0a9a5353b3c1b2041fd820517766
+SHA1: c767e59f19475170e70b23c331961eee9ea4b3a5
+SHA256: 6f1114fe637b3047bfc7cd94820926de79cb0c35dce975fb27f866b71cf587b1
+SHA512: 5312f2cc823d299d4b92021895d3edb4423537e618ee2fc6d12b527a96f8362ad483344af199074aab492b0134caa56c6acf5a6461edff940f504bc1705841a1
+Description: STOMP Motion Planner for MoveIt
+
+Package: ros-humble-moveit-planners
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.05
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 43
+Depends: ros-humble-moveit-planners-ompl, ros-humble-moveit-planners-stomp, ros-humble-pilz-industrial-motion-planner
+Filename: ./ros-humble-moveit-planners_100.0.5-2024.11.07.13.05_amd64.deb
+Size: 6872
+MD5sum: 0d0931da925ef58f4f0a17cd90e4626d
+SHA1: c932e74ce0b96a2728382d5c4b48ab56d0a5fce6
+SHA256: 47a82a4ee049ba7536d50778ee9c9333281631cb20384d8649bb6a566fb22933
+SHA512: 4c459fd600aeba67adef290a8fa80f199199d995033963cb391d1a7fe336e1410fe263c9d8175e44b1a6ea267020988b5de67038dbaf66929e2d330c83f14779
+Homepage: http://moveit.ros.org
+Description: Meta package that installs all available planners for MoveIt
+
+Package: ros-humble-moveit-plugins
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.05
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 43
+Depends: ros-humble-moveit-simple-controller-manager
+Filename: ./ros-humble-moveit-plugins_100.0.5-2024.11.07.13.05_amd64.deb
+Size: 6676
+MD5sum: 9a993dc4d5ebb4656c7ac2ab6401ca70
+SHA1: c81e9061388148f844992409c92761030b740fc9
+SHA256: 8d1cc9d3443d115c748ac3ac2150498535e6f87a988f6c276771456ab5456e15
+SHA512: 604e36265ae966078171443550948d85a52fe1e17ce8953914415c654c76bc51b6e5d9a268c0dc3697b026ad6d48ca0976fbfd1c9632547eb0fed9dd5472cb27
+Homepage: http://moveit.ros.org
+Description: Metapackage for MoveIt plugins.
+
+Package: ros-humble-moveit-py-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.01
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-py
+Maintainer: Peter David Fagan <peterdavidfagan@gmail.com>
+Installed-Size: 20628
+Depends: ros-humble-moveit-py (= 100.0.5-2024.11.07.14.01)
+Filename: ./ros-humble-moveit-py-dbgsym_100.0.5-2024.11.07.14.01_amd64.ddeb
+Size: 20158954
+MD5sum: 9544594d0031624fc30394d989f89a8d
+SHA1: fc969159fc6ac9ae4998371e2db1c6f3f8da5565
+SHA256: 45cdf003903b71afc790fdfabdc05e87bd6bb0528cee9e3b7caf7b64b9f7afcf
+SHA512: f58a34e36049f8fa3f1ad3b6139b4426bf37e3f98f3d2db41899a5e9182591bee4a0747d8a433e82ccf844446404be5b9a749bbbb87ced5f61869e35a3b113c1
+Description: debug symbols for ros-humble-moveit-py
+Build-Ids: 0dc15daff6178599b3538c9e8003387ad95b67cf cbcbb238fd004ecc69614e4510dfbbf862387ad6 dbaff53a256c335054968a00ba9cef92215dc47c
+
+Package: ros-humble-moveit-py
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.01
+Priority: optional
+Section: misc
+Maintainer: Peter David Fagan <peterdavidfagan@gmail.com>
+Installed-Size: 1218
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-srdfdom, ros-humble-urdfdom, ros-humble-ament-index-python, ros-humble-geometry-msgs, ros-humble-moveit-ros-planning-interface, ros-humble-octomap-msgs, ros-humble-rclcpp, ros-humble-rclpy
+Filename: ./ros-humble-moveit-py_100.0.5-2024.11.07.14.01_amd64.deb
+Size: 343456
+MD5sum: 904fa2bd53621bd7b209845777a1b358
+SHA1: 8d2a235a77b4cb7a2593dd497bc2afe3ffd9b78b
+SHA256: 714fdc08a934f52d98bb73b229b13a12f7192a485809e167cb8ce20a598e5667
+SHA512: ed399ea6fb1039f16e1dcdfc22c1284d24db860a7eccdefe7a51b1cbc2523ca3519c9b873541cb53a070bb7966791c0f774de4954fa53dd0de9cedabcdd95782
+Description: Python binding for MoveIt 2
+
+Package: ros-humble-moveit-resources-fanuc-description
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.06
+Priority: optional
+Section: misc
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 736
+Filename: ./ros-humble-moveit-resources-fanuc-description_3.0.0-2024.11.07.13.06_amd64.deb
+Size: 128102
+MD5sum: 75b802634f7c95bfb762e58785308db4
+SHA1: b48cd27a774f56561e0a8c6f6a29c5ad57f36b3a
+SHA256: 3a52e9cd6ab9813fb01488943a7b43cad2b625d7a37f39ca38e6f5cbdee922ee
+SHA512: 486f0e02b22797f1dd593b7f1e6a9524e170f0fa64389652c7706e46b875463ac03ecccecf459cbb73b933617b88a9b5ec319b4ee9adfbc4fb1c2c8b6c87b77b
+Homepage: http://moveit.ros.org
+Description: Fanuc Resources used for MoveIt testing
+
+Package: ros-humble-moveit-resources-fanuc-moveit-config
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.07
+Priority: optional
+Section: misc
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 91
+Depends: ros-humble-joint-state-publisher, ros-humble-moveit-resources-fanuc-description, ros-humble-robot-state-publisher, ros-humble-tf2-ros, ros-humble-xacro
+Filename: ./ros-humble-moveit-resources-fanuc-moveit-config_3.0.0-2024.11.07.13.07_amd64.deb
+Size: 15540
+MD5sum: bcfcf5c9190835156aab579c3b80d59e
+SHA1: 75c05043b39f2b3204fa55250e4ac123aef7c632
+SHA256: 52be8b677320af6b9ac56785dd14eb4325014a738d0096de6d34af17c11b3008
+SHA512: 3be259a438744ceaa7d6bca2b55285e74170f0fb176c0c04fcb50d3d99785609b02748bc09658271a1f28542b8810c976df7ac274f3a1c62cca21ab0d63aa8f6
+Homepage: http://moveit.ros.org
+Description: MoveIt Resources for testing: Fanuc M-10iA.
+ A project-internal configuration for testing in MoveIt.
+
+Package: ros-humble-moveit-resources-panda-description
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.08
+Priority: optional
+Section: misc
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 10458
+Filename: ./ros-humble-moveit-resources-panda-description_3.0.0-2024.11.07.13.08_amd64.deb
+Size: 3138178
+MD5sum: c4100673941f6df6019c5ab864a57f2e
+SHA1: bedbec796c7723b658a3be1bfbe0bc6a03dd814c
+SHA256: 7c673020f6ed3c3e33126aa7ceb52373fbdf7fb16f22f288597e6b8dc50c117e
+SHA512: cca4a1db5122d08a8fe8b2f5a8035d3e79b26ca9abf77c40ea2ce59c61c2ed30c94a46ff753f9117dbd1e409d5778fc77d5d697d42ea9f256893a08630c28881
+Homepage: http://moveit.ros.org
+Description: panda Resources used for MoveIt testing
+
+Package: ros-humble-moveit-resources-panda-moveit-config
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.08
+Priority: optional
+Section: misc
+Maintainer: Mike Lautman <mike@picknik.ai>
+Installed-Size: 137
+Depends: ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-moveit-resources-panda-description, ros-humble-robot-state-publisher, ros-humble-xacro
+Filename: ./ros-humble-moveit-resources-panda-moveit-config_3.0.0-2024.11.07.13.08_amd64.deb
+Size: 19586
+MD5sum: 91c78e13fdb98b292921bce604ec437f
+SHA1: 4f3b846428f5117769fde9f2765257ef9fb29e09
+SHA256: 1219d564b9670589281f185adb112d7760263bec744d45037e2c3095e987f1ff
+SHA512: 115bcf65fd66e13b453d21bb455987f0237570bc3da20f5431172729b3b86f15bfa0695add93b669ce989501bca6e41070f061497029f634cd3a8cf357e0b955
+Homepage: http://moveit.ros.org/
+Description: MoveIt Resources for testing: Franka Emika Panda A project-internal configuration for testing in MoveIt.
+
+Package: ros-humble-moveit-resources-pr2-description
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.09
+Priority: optional
+Section: misc
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 48624
+Filename: ./ros-humble-moveit-resources-pr2-description_3.0.0-2024.11.07.13.09_amd64.deb
+Size: 24385536
+MD5sum: de3669b31235f04132ccdcbc9a89fa55
+SHA1: 0214acbef08ad124de4ff76e62d85d4bcabd39ab
+SHA256: 8bb27887daa781042e5c9ff2c4a4858124391e8fee081ef928bd87ec6c9077f5
+SHA512: 34bb89ff17d15df248315535ad9b2c14ad8d369586267335ab09aa22798d81a50df035a25444e8342df0f0341310a742c605cf7b6d6b277a0978eae9c57ae233
+Homepage: http://moveit.ros.org
+Description: PR2 Resources used for MoveIt! testing
+
+Package: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.21
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 2728
+Depends: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin (= 100.0.5-2024.11.07.13.21)
+Filename: ./ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_100.0.5-2024.11.07.13.21_amd64.ddeb
+Size: 2706798
+MD5sum: 5d299cada50bd8652f72ec26a1b62e78
+SHA1: 4d1ee47cbea5182eb70ebecc19d9caf103ef533f
+SHA256: 9d16aad951db539b1476caba87fb30a21a8a2961a151d7c4cbd1c0a00f2db000
+SHA512: 8eee087c6801065e8f5aa8c59008a94ad9efc6afdc914c144be69e180777972be9786019ed25f165084c17d86d2c79aec565ee63df0f1284e20af9a5fe240357
+Description: debug symbols for ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+Build-Ids: 6e450da01398d7d9ff79b141d8de7b8a29051130
+
+Package: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.21
+Priority: optional
+Section: misc
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 477
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-generate-parameter-library, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-tf2-geometry-msgs, ros-humble-tf2-kdl
+Filename: ./ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_100.0.5-2024.11.07.13.21_amd64.deb
+Size: 130716
+MD5sum: 27d13ef70b51ee82542308c1dcb0f685
+SHA1: ea26dbcab91441179a6bed3b78935d7bb1f8243a
+SHA256: e17a26a71598e22e3a458f6358a7682ba02ac68edf29b8e438b78d8153ea0bf8
+SHA512: 89107697f49078488983fc27486f45d38e8afbe81da0fdd9ed7285ac968ee8052a7d181f1f2bb0eef7e345957993bb0af746fb4aff040d4464a867256c235749
+Homepage: http://moveit.ros.org
+Description: The prbt_ikfast_manipulator_plugin package
+
+Package: ros-humble-moveit-resources-prbt-moveit-config
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.23
+Priority: optional
+Section: misc
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 84
+Depends: ros-humble-joint-state-publisher, ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin, ros-humble-moveit-resources-prbt-support, ros-humble-moveit-ros-move-group, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-xacro
+Filename: ./ros-humble-moveit-resources-prbt-moveit-config_100.0.5-2024.11.07.13.23_amd64.deb
+Size: 14882
+MD5sum: b4d4ba564669d2447609ebb7d6126920
+SHA1: 2cb7f1e8da71f4fc72d33488f5e32eaf782eca78
+SHA256: e5862cf05b1a6ddfc40b6b046eb2dbff5b39bc7ec3f2482c46c2285109dcf161
+SHA512: debf6d379d538408534dafcfd6b3af1640b22f318e6beb84375ddfbc9b4d2fdae8cc7430967b4a843d68d6cea320dc110d23d0179031f78f81944f497c891eba
+Homepage: http://moveit.ros.org
+Description: MoveIt Resources for testing: Pilz PRBT 6 A project-internal configuration for testing in MoveIt.
+
+Package: ros-humble-moveit-resources-prbt-pg70-support
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.24
+Priority: optional
+Section: misc
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 935
+Depends: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin, ros-humble-moveit-resources-prbt-moveit-config, ros-humble-moveit-resources-prbt-support, ros-humble-xacro
+Filename: ./ros-humble-moveit-resources-prbt-pg70-support_100.0.5-2024.11.07.13.24_amd64.deb
+Size: 162788
+MD5sum: 8e0ead2d1b0018e68144c9733394c3e2
+SHA1: 518b60136fdf52245372ec0055e5d8bc0513fd06
+SHA256: b306f331ae74a5621b41cb6ec6bb228af3d83208673b63b478e1f3f289bfc053
+SHA512: dcfff94e3bdb1d917780d1776c3488ed346e520127d19b05ae634eadd74db39e33840372b2f8229e77312f297209284b6a771d075342cf69374fde349ddeb291
+Homepage: http://moveit.ros.org
+Description: PRBT support for Schunk pg70 gripper.
+
+Package: ros-humble-moveit-resources-prbt-support
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.24
+Priority: optional
+Section: misc
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 3862
+Depends: ros-humble-xacro
+Filename: ./ros-humble-moveit-resources-prbt-support_100.0.5-2024.11.07.13.24_amd64.deb
+Size: 790410
+MD5sum: ed562fae50fc307f6b0b49197ef93336
+SHA1: 783fbaceaa2b9195bd7b437f6b2b2d11a50d138b
+SHA256: a91a59c4453a39edf5f8a290e3a21d5c5ad8b2dcaee8f494c8ef720179054c4e
+SHA512: 0924714900a7562133c8c7aef2a95b3e7ca83bee1555e5b56008b446d8541e0bf4f020ee93dd3351aa2eab515101d25d433ee6929d2f312714ae321a1a187cea
+Homepage: http://moveit.ros.org
+Description: Mechanical, kinematic and visual description of the Pilz light weight arm PRBT.
+
+Package: ros-humble-moveit-resources
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.06
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 43
+Depends: ros-humble-joint-state-publisher, ros-humble-moveit-resources-fanuc-description, ros-humble-moveit-resources-fanuc-moveit-config, ros-humble-moveit-resources-panda-description, ros-humble-moveit-resources-panda-moveit-config, ros-humble-moveit-resources-pr2-description, ros-humble-robot-state-publisher
+Filename: ./ros-humble-moveit-resources_3.0.0-2024.11.07.13.06_amd64.deb
+Size: 6678
+MD5sum: 1cdc0ac61b32071b8cef1d9b506944bf
+SHA1: 465dbb34a624d8cfb4863252136ecc10cfafde08
+SHA256: aad209b3b6a355c70dc1e3f4f1f91b57cf781a3131bc63cb86017d83051fea7f
+SHA512: e84d1972f02d884d63c0cf9831034ee7ccf575bf77fa64230c5cef14ba20dea1cc384c65443dad1695061af91e9ddae3d56cb02859382ffae8e302a16b17087f
+Homepage: http://moveit.ros.org
+Description: Resources used for MoveIt testing
+
+Package: ros-humble-moveit-ros-benchmarks-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-benchmarks
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 6961
+Depends: ros-humble-moveit-ros-benchmarks (= 100.0.5-2024.11.07.13.50)
+Filename: ./ros-humble-moveit-ros-benchmarks-dbgsym_100.0.5-2024.11.07.13.50_amd64.ddeb
+Size: 6890250
+MD5sum: e9c2cedd7f9d66ffa163f29be78e46c8
+SHA1: 053931b1b532805f5a9a3806d6d29fdc335fa696
+SHA256: d1f737187dc55d08ffa662cbe6baa4d727782634c5aee8421d326de1893fd029
+SHA512: d3dea32f66eec4962c8c7f87cf1b93524a5c9c6cd1982bac23353d0f624ad3267c39b652370c97b8efb80aecd1d58095239a9721a08507455b09ad04c9f2bff6
+Description: debug symbols for ros-humble-moveit-ros-benchmarks
+Build-Ids: 3fe12fd2014df39d27c8e62b4d5959b09227a992 fac414b5d7d5690b12c5366b43987337381932d3
+
+Package: ros-humble-moveit-ros-benchmarks
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.50
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 651
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-moveit-ros-warehouse, libboost-date-time1.74.0, libboost-filesystem1.74.0, ros-humble-launch-param-builder, ros-humble-moveit-common, ros-humble-moveit-configs-utils, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-tf2-eigen
+Filename: ./ros-humble-moveit-ros-benchmarks_100.0.5-2024.11.07.13.50_amd64.deb
+Size: 206556
+MD5sum: 53604352301e9c6931cff7b290ce68a4
+SHA1: cb97f138da8bef1c79b3add1d92fac767f4d2a48
+SHA256: 450e70e722e6b41b35e39b1b76bfab92c6612ea0e5a6191e940030bb593a1fd0
+SHA512: c5bdcf1e6459c0c280046f1c2ec455e25e1410c1fa09dadf50847fd45590ec117a0019044fd0a7df749618f6d0176945bdc0afa866ec79af7cebf1647c8a3b1f
+Homepage: http://moveit.ros.org
+Description: Enhanced tools for benchmarks in MoveIt
+
+Package: ros-humble-moveit-ros-control-interface-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.54
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-control-interface
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 3946
+Depends: ros-humble-moveit-ros-control-interface (= 100.0.5-2024.11.07.13.54)
+Filename: ./ros-humble-moveit-ros-control-interface-dbgsym_100.0.5-2024.11.07.13.54_amd64.ddeb
+Size: 3700928
+MD5sum: 2ae4a9ce1a0692b2a6a84298869d269a
+SHA1: c0307d5b39c4ae2f1aa964be03d82e418ab7080f
+SHA256: f427e9e07acad5ec1cbd201e222d4818c7f5f4a878100ecd36055b5c2841d55c
+SHA512: 9a6ee26f9fa2a3d613ed6e707594105518ded01bc1ffd81fe703e6ad2f6bd1e1f82713811ec062c3f86cba8c300097c7363256c35878e20812e0a6922a860c81
+Description: debug symbols for ros-humble-moveit-ros-control-interface
+Build-Ids: 2cf8ac9b87bd368bd25cb18a60a52adb28fbc6cb 78c7f5f1537d69bf2c62804629d813bede2d6840 e102ca12bdeef416330ea40cc0337ed0f6c68d53 f67dcf6a9a065550e3a31c4eb8b06b774e7ec7d1
+
+Package: ros-humble-moveit-ros-control-interface
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.54
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 757
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-moveit-simple-controller-manager, ros-humble-controller-manager-msgs, ros-humble-moveit-common, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp-action, ros-humble-trajectory-msgs
+Filename: ./ros-humble-moveit-ros-control-interface_100.0.5-2024.11.07.13.54_amd64.deb
+Size: 199354
+MD5sum: 40b3328f0e8b7973bb6d1c9ab58c91da
+SHA1: 3bb8c89626f9e50a6f5666b99f46c1f18167166b
+SHA256: b4491e2438443940d88ad5a86a2f1dd43dedd3722b02af9305e23e380b11e8bd
+SHA512: 28a5cf2943ad1ed4c640b0dfb99b2a5e10c8f12c006f0b24c7d6399df04101448bb5e7b9d9400942b4cb2e6df95c25a8e44a1567a531ee9d3cca68684d1399e7
+Description: ros_control controller manager interface for MoveIt
+
+Package: ros-humble-moveit-ros-move-group-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-move-group
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 27599
+Depends: ros-humble-moveit-ros-move-group (= 100.0.5-2024.11.07.13.40)
+Filename: ./ros-humble-moveit-ros-move-group-dbgsym_100.0.5-2024.11.07.13.40_amd64.ddeb
+Size: 27085808
+MD5sum: a92eda4b497ccd6d724b238e14a2b656
+SHA1: 68b563ceb6c212d4fdff81d05b61c35e4e2df1f7
+SHA256: f0c5ca053f1e15093d127658df4e8425ef94503a6f22a18bfd6a21ef613ffb8b
+SHA512: ad5a35d83d59fa37d44d466aa361b18b7a348d9bb7ca0fedb832dbca2ffbc748284d1b7b2d8a99946ee78c2637ab3ff0d3e52a198a2c9e7b85a05399555120a0
+Description: debug symbols for ros-humble-moveit-ros-move-group
+Build-Ids: 3049bcdd8c9905099e95728bd660926519a7ebbe 4734d0c01f92f58fe54ab7369361e04c7b0d15af 590cc510a4d75beae7f94e696be990aded4c6a08 ad88ac756719a1d83ea5a5709a144dc434a046ae
+
+Package: ros-humble-moveit-ros-move-group
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.40
+Priority: optional
+Section: misc
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 1627
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-urdfdom, libfmt-dev, ros-humble-moveit-common, ros-humble-moveit-kinematics, ros-humble-moveit-ros-occupancy-map-monitor, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-moveit-ros-move-group_100.0.5-2024.11.07.13.40_amd64.deb
+Size: 390878
+MD5sum: 600c67d5dd4bd8b85554c83e1bae768c
+SHA1: 6f2d889800e2344d49f0b52eccc44e3fa30a1852
+SHA256: e0b7965898d6f3a5873d5a0cc99914d22b252b6f6a95d45a43f118e700d1d624
+SHA512: 95d10642c3872f086da57b800468c90795e5d8db56d20b5bb049153e53d60cef392e8cefad884495cbe930990c09d06a5fd3ccaef3aaf003df336fd290962f06
+Homepage: http://moveit.ros.org
+Description: The move_group node for MoveIt
+
+Package: ros-humble-moveit-ros-occupancy-map-monitor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-occupancy-map-monitor
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 5131
+Depends: ros-humble-moveit-ros-occupancy-map-monitor (= 100.0.5-2024.11.07.13.26)
+Filename: ./ros-humble-moveit-ros-occupancy-map-monitor-dbgsym_100.0.5-2024.11.07.13.26_amd64.ddeb
+Size: 4641854
+MD5sum: def4dacc2a3f2f9595b3fb55ddef8075
+SHA1: 31e66b34a3f0aa4b62f65acf5b5ec59660f2aabd
+SHA256: 86a8de568a34754e1e049d7fa46cfa35370584d493ecbe704f739a6f59d70f8d
+SHA512: 6249d422e682ea0cb3d1093b242bd268e3f9ebde69ff0365691adb78feb4e70f108578926959738517c248f70098aef101bc90f03b6941fd710cd6c69416e391
+Description: debug symbols for ros-humble-moveit-ros-occupancy-map-monitor
+Build-Ids: 870cc6a05fbb45bd81b059bbf613a407640a7773 a0378c5b332357a18479f399616bf59d9e7fbeac
+
+Package: ros-humble-moveit-ros-occupancy-map-monitor
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.26
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 969
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-octomap, libeigen3-dev, liboctomap-dev, ros-humble-eigen3-cmake-module, ros-humble-geometric-shapes, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-tf2-ros
+Filename: ./ros-humble-moveit-ros-occupancy-map-monitor_100.0.5-2024.11.07.13.26_amd64.deb
+Size: 244450
+MD5sum: 408e751275da64991cbc09eb5ace5589
+SHA1: dad8450ece9a9bde58adb950635c4d4658c66c31
+SHA256: 7737b5f02a14b2ce5efef9c86e0ffd37a272bc46193732b2452542431b11143c
+SHA512: 8604aea2240b08c2f6fffc21acdcad8e180102c1b558e565e8db6965958e7d7fff0b28f12f38deaaa4d5db94dd2c8b4c5bb9f6eceeabdf68f535b2f207a0d209
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt connecting to occupancy map
+
+Package: ros-humble-moveit-ros-perception-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.44
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-perception
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 10379
+Depends: ros-humble-moveit-ros-perception (= 100.0.5-2024.11.07.13.44)
+Filename: ./ros-humble-moveit-ros-perception-dbgsym_100.0.5-2024.11.07.13.44_amd64.ddeb
+Size: 9561608
+MD5sum: 29e05fc97fdcb367c8eff4a86bd4bc62
+SHA1: 62579968c48e610a363030bfd932108045f48e0d
+SHA256: c25f27f573c058cd91786b7167882678bde09b587977a55ca34143960bc71918
+SHA512: 4efdbedefd439bcc6fdfeb4dd34ba125f18b43b3e288ff00f09558ceb2118d10ac85a7c59f480b32e9fae921c76757558cdee1d77af6f22485291bf17c4f32ea
+Description: debug symbols for ros-humble-moveit-ros-perception
+Build-Ids: 001f3eee93cbf186ae6175e4756769674b99fdcf 0376ecd65490fe38ec06b538e84118a0fd3a964a 32577c94154508f51eba35559a255f81e6bb0278 3cc5730f83e7e3591ca85ab7d3ce47181ecbfea0 3e90a06f0a11296bcbb1bbaf32ca4af128306df5 80806d709259b00b5993acd52820b1e742466c59 930b3359fb56a0c167435e2670f02e39fb3f24e2 eeead7173011dcd1c210f27bb6fce99d9759f427
+
+Package: ros-humble-moveit-ros-perception
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.44
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1597
+Depends: freeglut3 (>= 2.8.1), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglu1-mesa | libglu1, libglx0, libgomp1 (>= 4.2.1), libopengl0, libstdc++6 (>= 12), ros-humble-geometric-shapes, ros-humble-moveit-core, ros-humble-moveit-ros-occupancy-map-monitor, ros-humble-octomap, freeglut3-dev, libgl1-mesa-dev, libglew-dev, libglu1-mesa-dev, libomp-dev, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-message-filters, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-moveit-ros-planning, ros-humble-object-recognition-msgs, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-urdf
+Filename: ./ros-humble-moveit-ros-perception_100.0.5-2024.11.07.13.44_amd64.deb
+Size: 335622
+MD5sum: 5e38cecf55a4ea0f4f434abee357ecfc
+SHA1: efcff47a741ba989843229426d634190f6a8eb21
+SHA256: 4ba6f83a2bb6315d360d92301014210697c33b554a57f81454f3c082c12f0c74
+SHA512: 754010ceeb89e9c3b1f735c05e0f728e60cf921b216dba8b4c96f45d590a8734cec21b9b2e3e83bd565cbb6ccf42b514885a37e89f78e8ee6749509dd086d284
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt connecting to perception
+
+Package: ros-humble-moveit-ros-planning-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-planning
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 69967
+Depends: ros-humble-moveit-ros-planning (= 100.0.5-2024.11.07.13.28)
+Filename: ./ros-humble-moveit-ros-planning-dbgsym_100.0.5-2024.11.07.13.28_amd64.ddeb
+Size: 67066850
+MD5sum: 66ca01412959e310e3ceddb9b70f8650
+SHA1: ef4efc3e55ee25d472aaa8a9c93d08de85eb9c53
+SHA256: 692742ce77eb0707791c5fd13019fcecf5be8fc3e8c88e6c6e44a9be78434c64
+SHA512: 2c4f3c619edcfc893478144480055bf4e5112434f84f23854dca3471240927a64db32b484d6985e16f3e401bc4ab29b185faf18b4489101fc6a202f2f86dee06
+Description: debug symbols for ros-humble-moveit-ros-planning
+Build-Ids: 02321c21443c41ca9738909e32735c1d8916e109 03ce5599b6847cf4ad5888dcf414a5a1101442bf 0d98a63ad8e9c24fe9679c09bcefd20ad8c9185d 155c0b80d8dbe53d860489148c542b91ddcfc58f 16b0df7d166cb80aafebe6e87d88bf6a361bf191 1ff9e2a7df50452ded65a35b147a081489c144cc 4dc57f7f805d2991645e1f9a1d633e73faf95336 4f2f11a27f82e290afc96f3fc922187f5583a807 6a2f23fe2eae60642f09aa2f22f73edef98ea6ce 874cb9744fc77cd37f630544c5b34e3c0fca9084 8bb7d65274032951edc1d3ade86f2ff72c1ceb00 a5da91dec6cf29d81b8edaa49c920f3fbbb55388 adad9bb63b24be299e40ffb54e1195a227789e7a b82295047483fae32176c8c0638df559eb6fcaf7 d89467f0a49c06d15f44486c9f5c2ffadbd2ec9f dac0405e345d9de59f65071f5ec2716b6d74da45 ddc0c21fe9545e81b6fa829bba6276205ae05930 eb62afe2cb3dbf3b7e00639e78570a8d16cdeed8 ecd407ba8dc7e2fa1f4519d59a5814a75a4bbfab ee03f949cb5944b7a6f1797e894961c8ede2baab fd8dc5812f7f71b66e0eb64c489654de73ff13be fdee5621a630fd44e28160e66aa0a98b46b7593a
+
+Package: ros-humble-moveit-ros-planning-interface-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-planning-interface
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 10031
+Depends: ros-humble-moveit-ros-planning-interface (= 100.0.5-2024.11.07.13.56)
+Filename: ./ros-humble-moveit-ros-planning-interface-dbgsym_100.0.5-2024.11.07.13.56_amd64.ddeb
+Size: 9723948
+MD5sum: 73112094b7063d3f83905b344c2354a0
+SHA1: b0394ad6ae75f002ae1abeba8c9d0588280badf9
+SHA256: 0c2d4972ee3fca1f6be7f6e0754659080a51f6b51e7563de96dcabf7353f1062
+SHA512: 0e662c3e817ff63dbb5b0301467dee4d93647e98b89fcf76a844181ea79018d880110fb54fe5a1ee60e2482a629ad78ef7d767d154cbb8fd1b21b1fa16668088
+Description: debug symbols for ros-humble-moveit-ros-planning-interface
+Build-Ids: 1873bd5140e10ea79f3e51328ebb0cc7915f5400 3b906875c3395b0cc5fded54c72da262d93c160c ff3252f9e256ff6bc1172c9a0542a1bad086dfdd
+
+Package: ros-humble-moveit-ros-planning-interface
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.56
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1050
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-moveit-ros-warehouse, python3-dev, ros-humble-geometry-msgs, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-moveit-ros-move-group, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclpy, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-moveit-ros-planning-interface_100.0.5-2024.11.07.13.56_amd64.deb
+Size: 269664
+MD5sum: bd229e26364fe0ad621e24df38a8302a
+SHA1: 53418ed91fc89e9f82efac1ee748b9e65513788c
+SHA256: e151e2b488b20b84ea91a8300c85b038a33a9020ce3a9d2a72a80a101572e93a
+SHA512: f1de7ed7623ed63dd95f97dd1b20a97193540cf01e53d88d96ad0e78b94d96f3ba4029f74f1b3f186547bb76fc96c9aafd2e93d04f5e871e1e2f9f427e499a84
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt that offer simpler remote (as from another ROS 2 node) interfaces to planning and execution
+
+Package: ros-humble-moveit-ros-planning
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.28
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 6483
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-humble-geometric-shapes, ros-humble-moveit-core, ros-humble-moveit-ros-occupancy-map-monitor, ros-humble-srdfdom, libeigen3-dev, libfmt-dev, ros-humble-ament-index-cpp, ros-humble-eigen3-cmake-module, ros-humble-generate-parameter-library, ros-humble-message-filters, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-std-msgs, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-msgs, ros-humble-tf2-ros, ros-humble-urdf
+Conflicts: ros-humble-moveit-ros-planning-interface (<< 2.1.5)
+Replaces: ros-humble-moveit-ros-planning-interface (<< 2.1.5)
+Filename: ./ros-humble-moveit-ros-planning_100.0.5-2024.11.07.13.28_amd64.deb
+Size: 1200912
+MD5sum: 6607846664f4027f76b69ab3d20d958a
+SHA1: 62b245f0422401d66f5c7d333baee6379275c3da
+SHA256: 882fd5db2c5a7c5451062853a657828586570a679ea93d70183dfaab9bb0a50e
+SHA512: dbdbcc1333c114e29d67eca7792f9b9885266b5c25dde532e8a8dacfa80c8b10bf4e35650b79b58eb52b89d2e9a6c3e90174af9e664596680c130e04b9b877af
+Homepage: http://moveit.ros.org
+Description: Planning components of MoveIt that use ROS
+
+Package: ros-humble-moveit-ros-robot-interaction-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-robot-interaction
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 7017
+Depends: ros-humble-moveit-ros-robot-interaction (= 100.0.5-2024.11.07.13.46)
+Filename: ./ros-humble-moveit-ros-robot-interaction-dbgsym_100.0.5-2024.11.07.13.46_amd64.ddeb
+Size: 6690406
+MD5sum: bb226dfb6817555049d83ad7b4c2268e
+SHA1: 8f03964adf3ed1d5a7d793e35c7acc776915070c
+SHA256: c7024e0f8691b420aba6f97021a854f43e4c92ee5da6b3f101af749fc0f8349d
+SHA512: d446782985e73c43670242830d1659f5dcc4ee5e429ebe306c68fa9353f82c71c213d1186bdd530f2ad3368cd340a6cedc2573d4b25d94db3506fb68be67e7ce
+Description: debug symbols for ros-humble-moveit-ros-robot-interaction
+Build-Ids: e0ce35f360801a13a6527abe6d79aeca342b09f6
+
+Package: ros-humble-moveit-ros-robot-interaction
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.46
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 736
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 12), ros-humble-moveit-core, ros-humble-interactive-markers, ros-humble-moveit-common, ros-humble-moveit-ros-planning, ros-humble-rclcpp, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-moveit-ros-robot-interaction_100.0.5-2024.11.07.13.46_amd64.deb
+Size: 175554
+MD5sum: 889871b82063f253ff88f40a25fb25e8
+SHA1: 487c81cbbe68de9026d38316cb7f1b2a7ce84f00
+SHA256: b836b1f6d9de1b28a017f6f53094c6e5b55f105ff523402137e0c13810aa0744
+SHA512: 760a58e0da6084d8e54ddeb08ab3d197c1279b717e5c6a3f8229472f6429694669fc4b8698d62915b3297f3796ea5e877f28fa4a592040167172451450b87a66
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt that offer interaction via interactive markers
+
+Package: ros-humble-moveit-ros-tests
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.37
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 8
+Depends: ros-humble-moveit-common, ros-humble-rclcpp
+Filename: ./ros-humble-moveit-ros-tests_100.0.5-2024.11.07.14.37_amd64.deb
+Size: 1878
+MD5sum: 0fac371c55b3035e4662c37491338f2f
+SHA1: 48890e31f56207fe8270d9e0d3ccd6af855e93ff
+SHA256: 10c5c2bde0634c4187f2c88c765e35c87512ce1ec60f59a4cad95c83b8fb9436
+SHA512: 7f577233ab9eb02956ea1323d0e0df34988ea0e1eaa54e9abc4f007ef3f2d375de1192c16c6234fc726d419b3d27fa8ba3812f21b3b9ff349f9b1f64bb9b9e10
+Homepage: http://moveit.ros.org
+Description: Integration tests for moveit_ros
+
+Package: ros-humble-moveit-ros-trajectory-cache-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-trajectory-cache
+Maintainer: Brandon Ong <methylDragon@intrinsic.ai>
+Installed-Size: 2150
+Depends: ros-humble-moveit-ros-trajectory-cache (= 100.0.5-2024.11.07.14.05)
+Filename: ./ros-humble-moveit-ros-trajectory-cache-dbgsym_100.0.5-2024.11.07.14.05_amd64.ddeb
+Size: 2103734
+MD5sum: deddad9a3c2f9ffd7fe821bf24b1e21d
+SHA1: 9f53a1b44c8b1b0722c71c606552be6e08072747
+SHA256: 330b16256a7d42c464265e9bdd9f9d2cfc57f02adc7536d156a3a7475dd106b7
+SHA512: 55b2f5fb7d01d9d3b78d2c1157bfe7c6e6656e0a8e2919dfcbed40c2885ab0425a6b92a02d3aa97c51b006a49a2b4b0cb223d8812bb869c099d275a47272fefa
+Description: debug symbols for ros-humble-moveit-ros-trajectory-cache
+Build-Ids: 75b77238337325b9974ea7ce80b990670a20ad60
+
+Package: ros-humble-moveit-ros-trajectory-cache
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.05
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <methylDragon@intrinsic.ai>
+Installed-Size: 278
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-moveit-ros-planning-interface, ros-humble-moveit-ros-warehouse, python3-yaml, ros-humble-geometry-msgs, ros-humble-moveit-common, ros-humble-moveit-ros, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-tf2-ros, ros-humble-trajectory-msgs, ros-humble-xacro
+Filename: ./ros-humble-moveit-ros-trajectory-cache_100.0.5-2024.11.07.14.05_amd64.deb
+Size: 77894
+MD5sum: 799879d6a33816be610fb5e6e684a85c
+SHA1: 67849a2f506b704f8bce7631d784c0babddf6430
+SHA256: e9cc0ed5f8eaea1871d7be78257ece6bf1f8acde57238a325916d89339f3e930
+SHA512: c84ab7e0a400241c7cc4c1b998e2c321e1da04d20f0aa4e6eef82e5e613e74915ae7caff8d9255a7fdf9920a779e441d37becf2742583d729ace510d04a72ced
+Description: A trajectory cache for MoveIt 2 motion plans and cartesian plans.
+
+Package: ros-humble-moveit-ros-visualization-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-visualization
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 43749
+Depends: ros-humble-moveit-ros-visualization (= 100.0.5-2024.11.07.14.07)
+Filename: ./ros-humble-moveit-ros-visualization-dbgsym_100.0.5-2024.11.07.14.07_amd64.ddeb
+Size: 41813546
+MD5sum: 8dc9ef3a62b097327698fc3e7fa97730
+SHA1: 14aa427f3962c699b719d85e7ee3559d3233cce9
+SHA256: 288fa9ed817d766138cf11c3b6dfa3927698219c4ef9f58e9798a1f4da922a1d
+SHA512: be67d33265449d4c76f63c88b4b1ce06fc191836ba3c188491525382370a47564c974f8589355f507c88674993751e1f1e6a37b8835ab47c4bc76ebe6eb531dd
+Description: debug symbols for ros-humble-moveit-ros-visualization
+Build-Ids: 452cd4b7ad7653ff2542ea47da14a39c36040804 4c77d0aea62269a4fcea898e5f8d7ee6ce37c819 6f4f067c1ba251975e9cd16c9dff2115dc0bc8ee 9998fbae0b7a1c1a68c07692aca951d6f4543cd6 9ae6fcccf8069b48459c6b79e8e03861c107fe92 aeccae6603f3028ead0efc4d5e81e158cde38346 d2268394cbf38f7970c97fff2bb4e4ecb0f22480 dbbc32860bda0d8ea23ae44eea63f073e37e63a7 e1597144bc498b378acd24728e2ac318c3ae5474
+
+Package: ros-humble-moveit-ros-visualization
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.07
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 3555
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopengl0, liborocos-kdl1.5 (>= 1.5.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 12), ros-humble-geometric-shapes, ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-moveit-ros-planning-interface, ros-humble-moveit-ros-robot-interaction, ros-humble-moveit-ros-warehouse, ros-humble-rviz-ogre-vendor, ros-humble-interactive-markers, ros-humble-moveit-common, ros-humble-object-recognition-msgs, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-rclpy, ros-humble-rviz2, ros-humble-tf2-eigen
+Filename: ./ros-humble-moveit-ros-visualization_100.0.5-2024.11.07.14.07_amd64.deb
+Size: 701902
+MD5sum: 9d53fa52dd932fccd267925ed5de1c21
+SHA1: 7eadaaf4fa8a2f0e3bbabd53a233d82ab47c1964
+SHA256: 1932396435a782fdb087daa1e2b6f44a61049d322990dc28ed68610f00a7d567
+SHA512: 3b16d53bcf1829477cdea84699c00df25dfaf772e44d6f065774ecebf907966fbea46480cb3c468447e1cc0117ca11161afb4b0461a4cb2583755c0dfeb505d5
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt that offer visualization
+
+Package: ros-humble-moveit-ros-warehouse-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-ros-warehouse
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 20303
+Depends: ros-humble-moveit-ros-warehouse (= 100.0.5-2024.11.07.13.48)
+Filename: ./ros-humble-moveit-ros-warehouse-dbgsym_100.0.5-2024.11.07.13.48_amd64.ddeb
+Size: 18939854
+MD5sum: 7fd3301c5e09e21773f45a4ffaa9173f
+SHA1: fcc5e3dac928b30b072da7b3bf23d6385c7324aa
+SHA256: 61f62918b6dad773634eb58b620c2ee4209f8d4bf691315d9675f2dfa7a2d49d
+SHA512: 11d5a089594861464377a060f008719f60667d9718e5e42abf06007787ee351eb8ea49a915c46a5d5acddf1af0e26227a992d286f4fd34a4d87d888a324f34b5
+Description: debug symbols for ros-humble-moveit-ros-warehouse
+Build-Ids: 05c2fe879dceddae4372862c8a98349c5d75b52f 0c50f07f84bfc7489c8cd6e5dae6d4dca3d94c66 2d53a4b25cf2eb0361c06e6b80853b87ab441d80 74b37ff456c1b5ebff48d917ce8385ddd3f768c4 7d214e35d57579865cfb110c7740f6a5be3887fa 941a802d48c9dc1d7e75178d210df2634c1701bf efa537b4ce69e18db490b738c91102eb1be7d442
+
+Package: ros-humble-moveit-ros-warehouse
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.48
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1937
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-moveit-ros-planning, libfmt-dev, ros-humble-moveit-common, ros-humble-rclcpp, ros-humble-tf2-eigen, ros-humble-tf2-ros, ros-humble-warehouse-ros
+Filename: ./ros-humble-moveit-ros-warehouse_100.0.5-2024.11.07.13.48_amd64.deb
+Size: 459938
+MD5sum: 44d337be6477c820a6dd2a6252546e5f
+SHA1: bf000995e8762e51f266b5e7e64a7f73f67b5439
+SHA256: a0def43fb9193b58b473d089f2cc459f70be22acd417fa762d22e6cfa96a4919
+SHA512: c840efd6e0fc3f51ad19ff0b7bad59999512a3a9945aac90825a323818415ab5b82072474ea44127113b55517f0f20992321360e321b90ee407120e1a32b3239
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt connecting to MongoDB
+
+Package: ros-humble-moveit-ros
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.25
+Priority: optional
+Section: misc
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 43
+Depends: ros-humble-moveit-ros-benchmarks, ros-humble-moveit-ros-move-group, ros-humble-moveit-ros-planning, ros-humble-moveit-ros-planning-interface, ros-humble-moveit-ros-robot-interaction, ros-humble-moveit-ros-visualization, ros-humble-moveit-ros-warehouse
+Filename: ./ros-humble-moveit-ros_100.0.5-2024.11.07.13.25_amd64.deb
+Size: 7316
+MD5sum: f0958d50f1a62fc217013abedd53fd45
+SHA1: 3861775fda2667b8d9a97a1c0df230a7c968431d
+SHA256: 45395416471d1a8a875d06eecce919a0c6f3ac5b443d02bc091c534f8c3d1646
+SHA512: c661e737864d6220e9187d449bcc8d6e6060dca0eb96ded922e36f7822cea257e50b89681e1ee1b0b4a2916415dc6cccc6bb5e0a9d1cffbe15a941cc1c3c108b
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt that use ROS
+
+Package: ros-humble-moveit-runtime
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.53
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 43
+Depends: ros-humble-moveit-core, ros-humble-moveit-planners, ros-humble-moveit-plugins, ros-humble-moveit-ros-move-group, ros-humble-moveit-ros-perception, ros-humble-moveit-ros-planning, ros-humble-moveit-ros-planning-interface, ros-humble-moveit-ros-warehouse
+Filename: ./ros-humble-moveit-runtime_100.0.5-2024.11.07.13.53_amd64.deb
+Size: 6708
+MD5sum: b9164f62f1a15840cc040598d924fb4b
+SHA1: efc545e700287ff67314a143bd059d4544096fdc
+SHA256: 18eccf1629611f6d8d2fc5bc803fa136851c7417bf5acc1a4bf4efef11eb799e
+SHA512: 2cd1123935e900d6626497962b8676f7e5ffe9b09c6a0247ea0cedb3016b66cd3add06a11ff550a7dcb061eaf0b3fe8d4e117ff56c53cb744b4dedc51c1e306d
+Homepage: http://moveit.ros.org
+Description: moveit_runtime meta package contains MoveIt packages that are essential for its runtime (e.g.
+ running MoveIt on robots).
+
+Package: ros-humble-moveit-servo-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.13
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-servo
+Maintainer: Blake Anderson <blakeanderson@utexas.edu>
+Installed-Size: 31447
+Depends: ros-humble-moveit-servo (= 100.0.5-2024.11.07.14.13)
+Filename: ./ros-humble-moveit-servo-dbgsym_100.0.5-2024.11.07.14.13_amd64.ddeb
+Size: 30308436
+MD5sum: ed68bd6da60b5526d8ae1dabe84f4571
+SHA1: c92170aa53353fc8a198d0e0a40811ba982ff04b
+SHA256: f97183e60ed94c31f34c16851a3dc917e989a3580f80d6569f306b4ced1a71d5
+SHA512: 4bca785c1b06806738fa6c1e3d74d48bec8f39f5b51c8fd8d9596ab3c6c255eb6352c57166c85053a05644632f7b3d46141f55fd947e5a03d5b6fd299e95a6c1
+Description: debug symbols for ros-humble-moveit-servo
+Build-Ids: 378fde4898277346ef7649f4b0f6d69b6141f595 50afe2cc34d2ac5ff506c0de1dd13ade9b5f844e 666db1e1675df5af1efcbb781c054c2ebbc68981 6ffd8d1bb7f52bc1861ffb76e4cc83810fabe289 809a59b5cea477fffad4ad7d5c986aef9f6be2c2 9f0658af4363f9d8dd5355ca455647cae15c4bb6 f9288c5b727c6941ddec5613619b7150acae2a3d
+
+Package: ros-humble-moveit-servo
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.13
+Priority: optional
+Section: misc
+Maintainer: Blake Anderson <blakeanderson@utexas.edu>
+Installed-Size: 3149
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-control-msgs, ros-humble-controller-manager, ros-humble-generate-parameter-library, ros-humble-geometry-msgs, ros-humble-gripper-controllers, ros-humble-joint-state-broadcaster, ros-humble-joint-trajectory-controller, ros-humble-joy, ros-humble-launch-param-builder, ros-humble-moveit-common, ros-humble-moveit-configs-utils, ros-humble-moveit-msgs, ros-humble-moveit-ros-planning-interface, ros-humble-pluginlib, ros-humble-realtime-tools, ros-humble-robot-state-publisher, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-eigen, ros-humble-tf2-ros, ros-humble-trajectory-msgs
+Filename: ./ros-humble-moveit-servo_100.0.5-2024.11.07.14.13_amd64.deb
+Size: 631844
+MD5sum: cb692c41bcc4e4f8d586e5973e1c6af1
+SHA1: ade46c999cb5de66c999ee8a54255f1c2c727bec
+SHA256: f9134bdcd2882f25578e92fc1791f3583d78dce16619dfb1ea1e9d6deff4f9da
+SHA512: fdcc45ddb80bc367c27a6f5b1105a954863c70ec8e3d8d1427439e0fa46379cfcfa4d2a52b74fabc6ad8e17f5986413431e1f1c12ec8b708e2a1c10fab13ed43
+Homepage: https://moveit.github.io/moveit_tutorials
+Description: Provides real-time manipulator Cartesian and joint servoing.
+
+Package: ros-humble-moveit-setup-app-plugins-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-setup-app-plugins
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 3935
+Depends: ros-humble-moveit-setup-app-plugins (= 100.0.5-2024.11.07.14.19)
+Filename: ./ros-humble-moveit-setup-app-plugins-dbgsym_100.0.5-2024.11.07.14.19_amd64.ddeb
+Size: 3917602
+MD5sum: 4d4d1e6d1ee34bbb6c159f4fdb8f2111
+SHA1: 36fb150eb2a4a0d11893f6900d7811c184ffc2a6
+SHA256: eb51fb91133afd190c925b8918db555cb067bfb0465c07f23beaf943dca629bc
+SHA512: 070a61ee745e4f47382cb1676fdf5dc390092ce84a0101d711f64f03b82a2fafd4fbcb01a3f209aaa939e97e1944e58778762f6fbd92f990a761f11a0bc45c6b
+Description: debug symbols for ros-humble-moveit-setup-app-plugins
+Build-Ids: 8cc15c17a6c6305e3d46197852b0305cc11afcc9
+
+Package: ros-humble-moveit-setup-app-plugins
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.19
+Priority: optional
+Section: misc
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 264
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-ament-index-cpp, ros-humble-moveit-configs-utils, ros-humble-moveit-ros-visualization, ros-humble-moveit-setup-framework, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-moveit-setup-app-plugins_100.0.5-2024.11.07.14.19_amd64.deb
+Size: 70322
+MD5sum: 7f316d05e1ebdfd9c059f7332989f338
+SHA1: dfe1f398fc07bb427161d7cd2abb0f8a0608d559
+SHA256: 822a6957dc7567ea8146fa8f5e5abc04b0c5596ea8245e902805d8dddf386f87
+SHA512: d28a5f16d0f40c19f49e4c58a85cfbfb343a1b4fb285ec4abc3357c7163bcd3bb22add8941bad331ad568a9536a205c662257e985805f59222db5b19dff0a9f6
+Description: Various specialty plugins for MoveIt Setup Assistant
+
+Package: ros-humble-moveit-setup-assistant-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.30
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-setup-assistant
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 7766
+Depends: ros-humble-moveit-setup-assistant (= 100.0.5-2024.11.07.14.30)
+Filename: ./ros-humble-moveit-setup-assistant-dbgsym_100.0.5-2024.11.07.14.30_amd64.ddeb
+Size: 7600182
+MD5sum: 99608bb981a2fda70cdd77baf0fae686
+SHA1: 06eea80eb4fc2df239b6ddcdc37a3b1f5f56106f
+SHA256: 33718f64feba024baeef392a86648e37bfdc83ce15a24472efe3d94fa4939374
+SHA512: 58f769e8752d7eacb2491f99352ac4ba2b0f1418b293c89d7ede0df25d1134827dbddd1e4ec34ff1786e8fc500a145a4b582faf2b5c4cbb66e2333074dd1a12f
+Description: debug symbols for ros-humble-moveit-setup-assistant
+Build-Ids: aa75912a3c15853a9460599d6d982384cc13023b cdfa5e6a4727cf182f2a069d9134ea1093f19c66
+
+Package: ros-humble-moveit-setup-assistant
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.30
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 847
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-ros-planning, ros-humble-srdfdom, qtbase5-dev, ros-humble-ament-index-cpp, ros-humble-moveit-configs-utils, ros-humble-moveit-setup-app-plugins, ros-humble-moveit-setup-controllers, ros-humble-moveit-setup-core-plugins, ros-humble-moveit-setup-framework, ros-humble-moveit-setup-srdf-plugins, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-moveit-setup-assistant_100.0.5-2024.11.07.14.30_amd64.deb
+Size: 293442
+MD5sum: 086f279e0f730678e24be37a1f1290a4
+SHA1: 8899c44eaba49c6f5f1bd366b0fa90482c5c618c
+SHA256: f57ce9c433f4fadc9cbf87dcdfb9ab818ee2d10b44bb18a0a66f3f6ff09df0b5
+SHA512: 5b268d0fbd7f119401b9859ea63eaa1e92935950b93fe18554d586b0a203afab6d8e9a315477b66d8b34d8999daedb2b6570b8d7fa28cc65a551af94c54a3391
+Homepage: http://moveit.ros.org
+Description: Generates a configuration package that makes it easy to use MoveIt
+
+Package: ros-humble-moveit-setup-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.21
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-setup-controllers
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 11763
+Depends: ros-humble-moveit-setup-controllers (= 100.0.5-2024.11.07.14.21)
+Filename: ./ros-humble-moveit-setup-controllers-dbgsym_100.0.5-2024.11.07.14.21_amd64.ddeb
+Size: 11714756
+MD5sum: ad7e84cb1465a492b28da28d2764fc9a
+SHA1: 4b43f8679514f0bf2e47d8c51ee58a4cabcd67c2
+SHA256: ba2fe7921f07e6fa6974212a34b7a736ff41585ec0abdbf0ad354f421a4d34e5
+SHA512: 92017d681ae34242a5e7f0c20df7a7782848ce31bf993143661de66995317519e831c858cd109d1d5af5c8e54887164490001d7a8682cbb686e585cf6aa27e78
+Description: debug symbols for ros-humble-moveit-setup-controllers
+Build-Ids: fa699c59ef402e59d6cbce051774ee43731ca4da
+
+Package: ros-humble-moveit-setup-controllers
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.21
+Priority: optional
+Section: misc
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 560
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-humble-moveit-core, ros-humble-ament-index-cpp, ros-humble-moveit-setup-framework, ros-humble-pluginlib, ros-humble-rclcpp
+Filename: ./ros-humble-moveit-setup-controllers_100.0.5-2024.11.07.14.21_amd64.deb
+Size: 161528
+MD5sum: 7fb7c6380ae776057143e7ef62bcbcf4
+SHA1: ef39cb7e749fe7572d6cab9a62df17ce087fe71c
+SHA256: c9d48052676001844534faa805e38db50a7db9591b6bdf42ab4ff76f920cdd58
+SHA512: 62a22eb2dcd00147c4c37fd8bcb731ade5ffcc321fb16402146f8faffc659a9e5a61ec880223174019ff5a6d8e920785ece82e1be10ffa35d850e4229d93a535
+Description: MoveIt Setup Steps for ROS 2 Control
+
+Package: ros-humble-moveit-setup-core-plugins-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-setup-core-plugins
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 5871
+Depends: ros-humble-moveit-setup-core-plugins (= 100.0.5-2024.11.07.14.24)
+Filename: ./ros-humble-moveit-setup-core-plugins-dbgsym_100.0.5-2024.11.07.14.24_amd64.ddeb
+Size: 5886672
+MD5sum: 777858251a81250922bf785e69ad8a7f
+SHA1: f8002412d5dc1eebd3393e250b0f1463c2822d22
+SHA256: fb9d0c47989cc08993fe0103bdedf7357a546cabd8a83e9767ae7d141da0c2e5
+SHA512: 37f222c49752364732f1ebb4316273b13d873f121aee9a91bb774f34ed1f4bf275b268c0c1cda71e625fb67eb5e2dd70623679c84cefdfa3139d9f1d9e7c3946
+Description: debug symbols for ros-humble-moveit-setup-core-plugins
+Build-Ids: 6ec1d39c91fb7ba910b6c0f7edf5082170942a7e
+
+Package: ros-humble-moveit-setup-core-plugins
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.24
+Priority: optional
+Section: misc
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 243
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-ament-index-cpp, ros-humble-moveit-ros-visualization, ros-humble-moveit-setup-framework, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-srdfdom, ros-humble-urdf
+Filename: ./ros-humble-moveit-setup-core-plugins_100.0.5-2024.11.07.14.24_amd64.deb
+Size: 62418
+MD5sum: 2c02cc0f220e2dfd477542877dbd0060
+SHA1: 512107ef262c831a1a261db59f0b8aaaafa1b303
+SHA256: 401abaf4fec892bd281f3f8c98a62ab90e7e5ff6fd657c3138e8f8c1bea0e5a7
+SHA512: 1f7027013e3c640ea544367d2f41d7dc0ff514b850ef0b08954e4aec27adf4e0b1c722b379a0ea7f9b0b3790cf04ff1c48d5e03a02f953b43cc42bcf3ba8542b
+Description: Core (meta) plugins for MoveIt Setup Assistant
+
+Package: ros-humble-moveit-setup-framework-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-setup-framework
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 6939
+Depends: ros-humble-moveit-setup-framework (= 100.0.5-2024.11.07.14.17)
+Filename: ./ros-humble-moveit-setup-framework-dbgsym_100.0.5-2024.11.07.14.17_amd64.ddeb
+Size: 6843900
+MD5sum: 6c50740a7cfa07afbe79da5ba5c367a0
+SHA1: 96a16a339d5b7b3525e48a0a2380c7e8bfe9c4c9
+SHA256: 258aef839c9a907157ac247e645052a8b56c7d920e5e49a3c19efc27c74d73a6
+SHA512: d6e41a5d3377d2be3ff8b59ad4dc7384f94dd57baf9e59a8dad1f554790bd42344ef24ebc49b23aab351a5275e92e059ed40c3580af53875ebf46bb3ad001539
+Description: debug symbols for ros-humble-moveit-setup-framework
+Build-Ids: 7b1a4d64299f8e88e6c4fdf1ba12dc0bc1914924
+
+Package: ros-humble-moveit-setup-framework
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.17
+Priority: optional
+Section: misc
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 659
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-moveit-ros-visualization, ros-humble-srdfdom, libfmt-dev, ros-humble-ament-index-cpp, ros-humble-moveit-common, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rviz-common, ros-humble-rviz-rendering, ros-humble-urdf
+Filename: ./ros-humble-moveit-setup-framework_100.0.5-2024.11.07.14.17_amd64.deb
+Size: 193042
+MD5sum: 9ff3c56c70d25280f6e227a78784d429
+SHA1: 2d3f27653ad99d2f002f106ae38a545da75ee215
+SHA256: 781f63110fcb631952c9be1aaec7b9790401d669faed888fc91e667c9c629b2c
+SHA512: 08b1e4dc868ad876704aa6bc3f0f109a17bb40eac25d857435078e2439756ec5791bae5c7a7920183bd6a747946106b4b05eb7cdeb9ba9d9824f2649668df272
+Description: C++ Interface for defining setup steps for MoveIt Setup Assistant
+
+Package: ros-humble-moveit-setup-srdf-plugins-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-setup-srdf-plugins
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 20131
+Depends: ros-humble-moveit-setup-srdf-plugins (= 100.0.5-2024.11.07.14.26)
+Filename: ./ros-humble-moveit-setup-srdf-plugins-dbgsym_100.0.5-2024.11.07.14.26_amd64.ddeb
+Size: 20022466
+MD5sum: 50ebf10bedae430177e76bb107fdd188
+SHA1: b7b48322a64ea72d8cf8d36838d661353b6541ee
+SHA256: af82ddc3393af86be16aa170d933fe7e3375d342556a347d0dc8890a045a9758
+SHA512: a91cd1e195a6adb3e2d619d875f1fed13a3a18cc79dd4f79cf56b11e920eede5f34f7cbefe7a273128ef4239256fcd6a7d1a3f3c86f4d303b81c2c4763ed6c1e
+Description: debug symbols for ros-humble-moveit-setup-srdf-plugins
+Build-Ids: 0428c9e3c3ffc064313fd2abb7ffffb115807499
+
+Package: ros-humble-moveit-setup-srdf-plugins
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.26
+Priority: optional
+Section: misc
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 1051
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-humble-moveit-core, ros-humble-moveit-setup-framework, ros-humble-pluginlib
+Filename: ./ros-humble-moveit-setup-srdf-plugins_100.0.5-2024.11.07.14.26_amd64.deb
+Size: 310110
+MD5sum: 417fffc67dab863e6e90dde47ee58665
+SHA1: ae1db416d995dabc1cec3d359c5f2f83f3066f8f
+SHA256: f8fe79e62c6e026da853265df8abced99945b04e7386a2d1392f28682c27d475
+SHA512: a38374effa4c235da81c5c1c7f5767051c531355636dc79a7e48205b5739b4788d7f7de6197e4e128b19929eebbd0677634c4c546c1e659dd06fb2a0c832ca32
+Description: SRDF-based plugins for MoveIt Setup Assistant
+
+Package: ros-humble-moveit-simple-controller-manager-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.53
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-moveit-simple-controller-manager
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 1648
+Depends: ros-humble-moveit-simple-controller-manager (= 100.0.5-2024.11.07.13.53)
+Filename: ./ros-humble-moveit-simple-controller-manager-dbgsym_100.0.5-2024.11.07.13.53_amd64.ddeb
+Size: 1501342
+MD5sum: 79a35c80d6fdc74b6ca9f3a3f2e5cc64
+SHA1: 203835b8f1aacdff311881bd5f6844cf8e0d228e
+SHA256: 4f2e6c08ac09cb9d45fdbd4b30134c59825070720063e270932e61a310af362b
+SHA512: e38c13b3a4c326107522f8dba68eefa649c29e5cf5ed2cea005db2935f18bbfa712e7b8e639e7c3deb4ab4d3d76aafb8d6e49b983730600de9db6d20ef0fe66a
+Description: debug symbols for ros-humble-moveit-simple-controller-manager
+Build-Ids: 83198aa6d56bcda5164fa0bcf7d5f1aff0a71675
+
+Package: ros-humble-moveit-simple-controller-manager
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.53
+Priority: optional
+Section: misc
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 393
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-control-msgs, ros-humble-moveit-common, ros-humble-pluginlib (>= 1.11.2), ros-humble-rclcpp, ros-humble-rclcpp-action
+Filename: ./ros-humble-moveit-simple-controller-manager_100.0.5-2024.11.07.13.53_amd64.deb
+Size: 101436
+MD5sum: 797b597a08aed8e3c371b1eb71548203
+SHA1: dbd7d7c22d1f9831e887aa04c35540a745228c8c
+SHA256: 86b10f265c50217129fc5a702b64322ed3d4c3a56f8ad36c716d40cdcce930f0
+SHA512: fab60d643c4fc0a02da917c3e300f4cd7cd02d862160e485bee9600d2c52060fd63303a3257756a49daf0acc8bb5f6d711a2c1acd07a00db6bb2cc804ad5f8cc
+Homepage: http://moveit.ros.org
+Description: A generic, simple controller manager plugin for MoveIt.
+
+Package: ros-humble-moveit
+Architecture: amd64
+Version: 100.0.5-2024.11.07.13.01
+Priority: optional
+Section: misc
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 50
+Depends: ros-humble-moveit-core, ros-humble-moveit-planners, ros-humble-moveit-plugins, ros-humble-moveit-ros, ros-humble-moveit-setup-assistant
+Filename: ./ros-humble-moveit_100.0.5-2024.11.07.13.01_amd64.deb
+Size: 13604
+MD5sum: 9e019aaa2ebf05bc748825ecb06a8f07
+SHA1: 4669be683729cea883038ed91738f96eba4c9d39
+SHA256: d02335b83090ba19414ad8b79dcef935e8f35b3aaa946a9c21f22c00d64ed36d
+SHA512: 2bcf04b8fbc07774a4fdfd7426627b5b5c662768a1eb7249092b7685fb3eb626a5ec545d319ba6a96fb5f55cdf56097758067d57926dda0704519ffa6a0b53fe
+Homepage: http://moveit.ros.org
+Description: Meta package that contains all essential packages of MoveIt 2
+
+Package: ros-humble-pilz-industrial-motion-planner-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.34
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-pilz-industrial-motion-planner
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Installed-Size: 25219
+Depends: ros-humble-pilz-industrial-motion-planner (= 100.0.5-2024.11.07.14.34)
+Filename: ./ros-humble-pilz-industrial-motion-planner-dbgsym_100.0.5-2024.11.07.14.34_amd64.ddeb
+Size: 25063972
+MD5sum: 199667770f95794fda1d7ceb9a2b0638
+SHA1: a721d459e69b60170112cf9ff6ee3aa40e841eab
+SHA256: 574602c42e19eb99cc2e78ece5f3572c359853c014214c011b99007f342dd2e1
+SHA512: 9c0243e55ff0ca989e37773e3f9f94cb6f19d00714288dd12c4d07116f360c5603a844817a863bf8978a7cccad0c452184f043c1d8ef39cf350f24f2b4937db0
+Description: debug symbols for ros-humble-pilz-industrial-motion-planner
+Build-Ids: 0bd13de36fd39a9bb207e1829c8362710ff49c11 1dd22e231f7bca3a2995fd10dd5808636b1f3d87 566f5179f419566bdf561ffc234eb01bc87d5efd 64599c7496583913ae8748f16646f7f1f05849f2 96d0903c323b3bb77a5e1b01c45b0bdb47fdb651 d294df1f863dac5559375872c071920b01b6c357 e66d19e168ef416349daa7f0b0c0e04ec2b87763 fae9f397e0685a5a44302ebf704f11a74f88a5be fc70da7285f5b155142e87676b5e98a44bd7e15f
+
+Package: ros-humble-pilz-industrial-motion-planner-testutils-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.32
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-pilz-industrial-motion-planner-testutils
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Installed-Size: 5244
+Depends: ros-humble-pilz-industrial-motion-planner-testutils (= 100.0.5-2024.11.07.14.32)
+Filename: ./ros-humble-pilz-industrial-motion-planner-testutils-dbgsym_100.0.5-2024.11.07.14.32_amd64.ddeb
+Size: 5134058
+MD5sum: 72d50a508dfb1f64ac4a0ee9c0988a8d
+SHA1: 88e28232574623fdb6d88ff138c228427c101c7a
+SHA256: 34f7bbcb4d1518f3fb873a474fe835e4555d106dc326e1188f40cbbac8c73622
+SHA512: 18715cf9fdcf035e8c2c79bda50fe50928e9bae50cb51b7b6a8ed23ebda684583e4629a1ac913bae14118b2bdb28b57224cd1333eda45b1ab0de3a6332216f32
+Description: debug symbols for ros-humble-pilz-industrial-motion-planner-testutils
+Build-Ids: a50b211a95c3034d00c3e08620d41a938f3b2ba3
+
+Package: ros-humble-pilz-industrial-motion-planner-testutils
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.32
+Priority: optional
+Section: misc
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Installed-Size: 466
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-eigen3-cmake-module, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-rclcpp
+Filename: ./ros-humble-pilz-industrial-motion-planner-testutils_100.0.5-2024.11.07.14.32_amd64.deb
+Size: 105904
+MD5sum: f517b4a7281011540d7b8e295604c614
+SHA1: fd76bb76b2e8c5d25190b2142ebd4e309b9b4298
+SHA256: 14f7932e99637be68690c4ffe7f92bde0b8bfc8bc73656b9040d0034fe0b310b
+SHA512: fefd8664f6b0756f0faa281e5a84d90f20c3599e51c3d8041ed539c8f6880ec95a76af0d2f855bef9bdc349f1b6d3a0b9dda31eca36eb9076bbe5d571d37e748
+Homepage: http://moveit.ros.org
+Description: Helper scripts and functionality to test industrial motion generation
+
+Package: ros-humble-pilz-industrial-motion-planner
+Architecture: amd64
+Version: 100.0.5-2024.11.07.14.34
+Priority: optional
+Section: misc
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Installed-Size: 1596
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, ros-humble-moveit-ros-move-group, ros-humble-moveit-ros-planning, ros-humble-eigen3-cmake-module, ros-humble-generate-parameter-library, ros-humble-geometry-msgs, ros-humble-moveit-common, ros-humble-moveit-msgs, ros-humble-orocos-kdl-vendor, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-eigen-kdl, ros-humble-tf2-geometry-msgs, ros-humble-tf2-kdl, ros-humble-tf2-ros
+Filename: ./ros-humble-pilz-industrial-motion-planner_100.0.5-2024.11.07.14.34_amd64.deb
+Size: 372386
+MD5sum: b4c0d11cccaa761ea92ea8af958143b1
+SHA1: 77a01a656a7cf263b6b5f550cd0eb425f3584b71
+SHA256: 38cdbcc174dd5f2f6609fe26d6b352681418920a130659b90fef076c43c66ebc
+SHA512: 47069fd6f76e27e8360081f958c908aeda62183752a65799225fc8f4e124cd1ac473efbd41f4e02972861aa43d7e9c32b85cf2c6852495c7921a17be194a9392
+Homepage: http://moveit.ros.org
+Description: MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC and sequences thereof.
+

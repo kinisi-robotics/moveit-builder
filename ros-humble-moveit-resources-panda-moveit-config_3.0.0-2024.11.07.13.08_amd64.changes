@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Mon, 19 Feb 2024 00:00:00 -0000
+Source: ros-humble-moveit-resources-panda-moveit-config
+Binary: ros-humble-moveit-resources-panda-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2024.11.07.13.08
+Distribution: jammy
+Urgency: high
+Maintainer: Mike Lautman <mike@picknik.ai>
+Changed-By: Mike Lautman <mike@picknik.ai>
+Description:
+ ros-humble-moveit-resources-panda-moveit-config - MoveIt Resources for testing: Franka Emika Panda A project-intern
+Changes:
+ ros-humble-moveit-resources-panda-moveit-config (3.0.0-2024.11.07.13.08) jammy; urgency=high
+ .
+   * Update acceleration limits for robot configs (#195 <https://github.com/ros-planning/moveit_resources/issues/195>)
+     * update panda
+     * rename file to joint_limits_jerk_limited.yaml
+     * rename to hard_joint_limits.yaml
+     ---------
+   * Update ros2 control usage (#192 <https://github.com/ros-planning/moveit_resources/issues/192>)
+     * Update ros2_control usage
+     * Update dual_arm_panda_moveit_config/config/panda_hand.ros2_control.xacro
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+     ---------
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+   * Update planner configs (#191 <https://github.com/ros-planning/moveit_resources/issues/191>)
+   * Update planning pipeline configs (#189 <https://github.com/ros-planning/moveit_resources/issues/189>)
+   * Fix Panda demo launch for MoveIt 2 tutorials (#190 <https://github.com/ros-planning/moveit_resources/issues/190>)
+   * Add bio_ik and TRAC-IK kinematics configs (#187 <https://github.com/ros-planning/moveit_resources/issues/187>)
+   * Remove unsupported planner configs (#182 <https://github.com/ros-planning/moveit_resources/issues/182>)
+   * Create Panda URDF Xacro, restore URDF for RobotModelTestUtils (#178 <https://github.com/ros-planning/moveit_resources/issues/178>)
+   * Contributors: Henning Kayser, Paul Gesel, Sebastian Castro, Sebastian Jahr
+Checksums-Sha1:
+ 68a25e79ea133124226fe917128c744d711be499 9315 ros-humble-moveit-resources-panda-moveit-config_3.0.0-2024.11.07.13.08_amd64.buildinfo
+ 4f3b846428f5117769fde9f2765257ef9fb29e09 19586 ros-humble-moveit-resources-panda-moveit-config_3.0.0-2024.11.07.13.08_amd64.deb
+Checksums-Sha256:
+ a1b5f23d944749143d4a8fff2b0263a796a555fcab63e036bea538f5d044779d 9315 ros-humble-moveit-resources-panda-moveit-config_3.0.0-2024.11.07.13.08_amd64.buildinfo
+ 1219d564b9670589281f185adb112d7760263bec744d45037e2c3095e987f1ff 19586 ros-humble-moveit-resources-panda-moveit-config_3.0.0-2024.11.07.13.08_amd64.deb
+Files:
+ 6fa86ededc5afcc76de2d6d0eda15e3e 9315 misc optional ros-humble-moveit-resources-panda-moveit-config_3.0.0-2024.11.07.13.08_amd64.buildinfo
+ 91c78e13fdb98b292921bce604ec437f 19586 misc optional ros-humble-moveit-resources-panda-moveit-config_3.0.0-2024.11.07.13.08_amd64.deb
