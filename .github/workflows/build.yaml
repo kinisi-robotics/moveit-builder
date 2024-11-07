@@ -7,7 +7,7 @@ on:
 env:
   SYNC_DATESTAMP: "2024-11-04"
   ROS_DISTRO: humble
-
+  VERSION: "100.0.5"
 permissions:
   contents: write
   packages: write
@@ -32,4 +32,4 @@ jobs:
             $enable_network = 1;
           SQUASH_HISTORY: true
           REPOS_FILE: sources.repos
-          PACKAGES_BRANCH: stable-${{ env.SYNC_DATESTAMP }}
+          PACKAGES_BRANCH: ${{ env.VERSION }}
