@@ -145,3 +145,12 @@ pilz_industrial_motion_planner:
 moveit_ros_tests:
   ubuntu:
   - ros-humble-moveit-ros-tests
+trac_ik:
+  ubuntu:
+  - ros-humble-trac-ik
+trac_ik_lib:
+  ubuntu:
+  - ros-humble-trac-ik-lib
+trac_ik_kinematics_plugin:
+  ubuntu:
+  - ros-humble-trac-ik-kinematics-plugin

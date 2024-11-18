@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 19 Feb 2024 00:00:00 -0000
+Source: ros-humble-moveit-resources-fanuc-moveit-config
+Binary: ros-humble-moveit-resources-fanuc-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2024.11.18.13.59
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-resources-fanuc-moveit-config - MoveIt Resources for testing: Fanuc M-10iA.
+Changes:
+ ros-humble-moveit-resources-fanuc-moveit-config (3.0.0-2024.11.18.13.59) jammy; urgency=high
+ .
+   * Update ros2 control usage (#192 <https://github.com/ros-planning/moveit_resources/issues/192>)
+     * Update ros2_control usage
+     * Update dual_arm_panda_moveit_config/config/panda_hand.ros2_control.xacro
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+     ---------
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+   * Update planner configs (#191 <https://github.com/ros-planning/moveit_resources/issues/191>)
+   * Update planning pipeline configs (#189 <https://github.com/ros-planning/moveit_resources/issues/189>)
+   * fix warnings about deprecated load_yaml (#188 <https://github.com/ros-planning/moveit_resources/issues/188>)
+   * Contributors: Christian Rauch, Sebastian Jahr
+Checksums-Sha1:
+ 414ecd4d247b043fc9186ff68d7124b581005be3 9315 ros-humble-moveit-resources-fanuc-moveit-config_3.0.0-2024.11.18.13.59_amd64.buildinfo
+ 4eeb7a9277cad8795f62b25b0f98bf89972d3d75 15546 ros-humble-moveit-resources-fanuc-moveit-config_3.0.0-2024.11.18.13.59_amd64.deb
+Checksums-Sha256:
+ 33e08034f2ffb944d78461edaf96dcbd505da3a90768d59fb75d8f5b783a4fbb 9315 ros-humble-moveit-resources-fanuc-moveit-config_3.0.0-2024.11.18.13.59_amd64.buildinfo
+ d4753d84e7dc24e5308273803b46fa56921e4d88b9641bcbf5fb8183aed377ff 15546 ros-humble-moveit-resources-fanuc-moveit-config_3.0.0-2024.11.18.13.59_amd64.deb
+Files:
+ 4f6b6374f344d406e63221ad84856735 9315 misc optional ros-humble-moveit-resources-fanuc-moveit-config_3.0.0-2024.11.18.13.59_amd64.buildinfo
+ fc042484cf80d64de315883b1da7b580 15546 misc optional ros-humble-moveit-resources-fanuc-moveit-config_3.0.0-2024.11.18.13.59_amd64.deb
