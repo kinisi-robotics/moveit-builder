@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 12 Apr 2024 00:00:00 -0000
+Source: ros-humble-trac-ik-kinematics-plugin
+Binary: ros-humble-trac-ik-kinematics-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.1-1-g2656590-2024.12.19.15.45
+Distribution: jammy
+Urgency: high
+Maintainer: TRACLabs Robotics <robotics@traclabs.com>
+Changed-By: TRACLabs Robotics <robotics@traclabs.com>
+Description:
+ ros-humble-trac-ik-kinematics-plugin - A MoveIt! Kinematics plugin using TRAC-IK
+Changes:
+ ros-humble-trac-ik-kinematics-plugin (2.0.1-1-g2656590-2024.12.19.15.45) jammy; urgency=high
+Checksums-Sha1:
+ 4ee6a8abca4e08effd8781aaf5e76a02c1d485df 1733866 ros-humble-trac-ik-kinematics-plugin-dbgsym_2.0.1-1-g2656590-2024.12.19.15.45_amd64.ddeb
+ 8c4c037e696efe7f6298d39389f6a3e3c3bbb0e8 26474 ros-humble-trac-ik-kinematics-plugin_2.0.1-1-g2656590-2024.12.19.15.45_amd64.buildinfo
+ 363a632a74d089c82e0ccf0ef505f1ad0eedde3d 56376 ros-humble-trac-ik-kinematics-plugin_2.0.1-1-g2656590-2024.12.19.15.45_amd64.deb
+Checksums-Sha256:
+ dabfa20bac16df77a9e63e5e8904e48c667f6e0fd5da9a3a7d3751f64cf93d00 1733866 ros-humble-trac-ik-kinematics-plugin-dbgsym_2.0.1-1-g2656590-2024.12.19.15.45_amd64.ddeb
+ 91a6fe03c6d175e87e13b5264f84abc76fa7c14d372575f04d8c8ad5041e6626 26474 ros-humble-trac-ik-kinematics-plugin_2.0.1-1-g2656590-2024.12.19.15.45_amd64.buildinfo
+ 3b9ee3b2ba834b2827c4151955d91bf88a386023564d89582e25a96f93ebd57a 56376 ros-humble-trac-ik-kinematics-plugin_2.0.1-1-g2656590-2024.12.19.15.45_amd64.deb
+Files:
+ f7c481b5b532d47464b58dc884d69f3a 1733866 debug optional ros-humble-trac-ik-kinematics-plugin-dbgsym_2.0.1-1-g2656590-2024.12.19.15.45_amd64.ddeb
+ 39d4cadc728842970440a0602bf1c1f5 26474 misc optional ros-humble-trac-ik-kinematics-plugin_2.0.1-1-g2656590-2024.12.19.15.45_amd64.buildinfo
+ edff3c789873370361470141fd277189 56376 misc optional ros-humble-trac-ik-kinematics-plugin_2.0.1-1-g2656590-2024.12.19.15.45_amd64.deb

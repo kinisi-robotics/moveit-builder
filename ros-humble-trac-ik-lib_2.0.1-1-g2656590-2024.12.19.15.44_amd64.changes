@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 12 Apr 2024 00:00:00 -0000
+Source: ros-humble-trac-ik-lib
+Binary: ros-humble-trac-ik-lib
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.1-1-g2656590-2024.12.19.15.44
+Distribution: jammy
+Urgency: high
+Maintainer: TRACLabs Robotics <robotics@traclabs.com>
+Changed-By: TRACLabs Robotics <robotics@traclabs.com>
+Description:
+ ros-humble-trac-ik-lib - TRAC-IK is a faster, significantly more reliable drop-in replacem
+Changes:
+ ros-humble-trac-ik-lib (2.0.1-1-g2656590-2024.12.19.15.44) jammy; urgency=high
+ .
+   * Add missing geometry_msgs dependency in package.xml
+   * Contributors: Kenji Brameld
+Checksums-Sha1:
+ 04c707e0390197f980febca4ffc40f756b5fc5a8 2625450 ros-humble-trac-ik-lib-dbgsym_2.0.1-1-g2656590-2024.12.19.15.44_amd64.ddeb
+ d489e7137a3c917779918437fe56c2e4bfbf631e 15607 ros-humble-trac-ik-lib_2.0.1-1-g2656590-2024.12.19.15.44_amd64.buildinfo
+ 48d4c225b549512b04acfa6da8b9eeb25763b94e 95060 ros-humble-trac-ik-lib_2.0.1-1-g2656590-2024.12.19.15.44_amd64.deb
+Checksums-Sha256:
+ 30a5db737ee7f1245437427eee83e9c33af7d683d46df6bf3842877c84b5ae56 2625450 ros-humble-trac-ik-lib-dbgsym_2.0.1-1-g2656590-2024.12.19.15.44_amd64.ddeb
+ 452704b1e2efb39fd93cb273b632d044a09d66ecec3c66a30f3ce687c01b2452 15607 ros-humble-trac-ik-lib_2.0.1-1-g2656590-2024.12.19.15.44_amd64.buildinfo
+ f61dc54dd18f371305af30927ea446e503acc551c3ceb1fe1ba0abe4002e6a67 95060 ros-humble-trac-ik-lib_2.0.1-1-g2656590-2024.12.19.15.44_amd64.deb
+Files:
+ 05513b4f259da708dafca8063ddc2813 2625450 debug optional ros-humble-trac-ik-lib-dbgsym_2.0.1-1-g2656590-2024.12.19.15.44_amd64.ddeb
+ f25c861e88945d260fedffbd6e421a35 15607 misc optional ros-humble-trac-ik-lib_2.0.1-1-g2656590-2024.12.19.15.44_amd64.buildinfo
+ 42a2ec70dea345771da2168c547a5ff8 95060 misc optional ros-humble-trac-ik-lib_2.0.1-1-g2656590-2024.12.19.15.44_amd64.deb

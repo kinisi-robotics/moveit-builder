@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 19 Feb 2024 00:00:00 -0000
+Source: ros-humble-moveit-resources-fanuc-description
+Binary: ros-humble-moveit-resources-fanuc-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2024.12.19.14.05
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-resources-fanuc-description - Fanuc Resources used for MoveIt testing
+Changes:
+ ros-humble-moveit-resources-fanuc-description (3.0.0-2024.12.19.14.05) jammy; urgency=high
+Checksums-Sha1:
+ 84fc4a7b0a4752bfd8cc213978d6ad39b35bd7e5 9308 ros-humble-moveit-resources-fanuc-description_3.0.0-2024.12.19.14.05_amd64.buildinfo
+ bc372a0f8fcdb732861a88d310b60c3a45889659 128098 ros-humble-moveit-resources-fanuc-description_3.0.0-2024.12.19.14.05_amd64.deb
+Checksums-Sha256:
+ 49291623c309690a1ebac6d1b6f12327b922815fc8d1cca0453815bb140db20d 9308 ros-humble-moveit-resources-fanuc-description_3.0.0-2024.12.19.14.05_amd64.buildinfo
+ 33cf03dce5705ff6e37ae4b1d19602457c046a7571904b12c6bc9755fda1390e 128098 ros-humble-moveit-resources-fanuc-description_3.0.0-2024.12.19.14.05_amd64.deb
+Files:
+ 3283b86bceac58fb03ca3d2e81f2029f 9308 misc optional ros-humble-moveit-resources-fanuc-description_3.0.0-2024.12.19.14.05_amd64.buildinfo
+ 09d0520d069bd4e611fd44a8b9393dba 128098 misc optional ros-humble-moveit-resources-fanuc-description_3.0.0-2024.12.19.14.05_amd64.deb

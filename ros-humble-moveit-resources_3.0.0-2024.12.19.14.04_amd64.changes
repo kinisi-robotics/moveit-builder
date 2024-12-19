@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 19 Feb 2024 00:00:00 -0000
+Source: ros-humble-moveit-resources
+Binary: ros-humble-moveit-resources
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2024.12.19.14.04
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-resources - Resources used for MoveIt testing
+Changes:
+ ros-humble-moveit-resources (3.0.0-2024.12.19.14.04) jammy; urgency=high
+Checksums-Sha1:
+ 0839fc5931d84a1ee622420dab03ef1fce3de59b 9212 ros-humble-moveit-resources_3.0.0-2024.12.19.14.04_amd64.buildinfo
+ 5d2ce463d2406bb21a437f1e2a4854498ba0cebc 6678 ros-humble-moveit-resources_3.0.0-2024.12.19.14.04_amd64.deb
+Checksums-Sha256:
+ 70f6bf9f24ef3428591d5755f9298389cbd8df5aeee06a3c0cfa71cb15b2ae11 9212 ros-humble-moveit-resources_3.0.0-2024.12.19.14.04_amd64.buildinfo
+ 02676411396317858da11ad2fe39c81f68c27d0cb1b2bf76f8533dfa8b58cce3 6678 ros-humble-moveit-resources_3.0.0-2024.12.19.14.04_amd64.deb
+Files:
+ 1f94bbd403d1452778d652b239ed8e0e 9212 misc optional ros-humble-moveit-resources_3.0.0-2024.12.19.14.04_amd64.buildinfo
+ 64f0b67d3a76e4ad73acac12c2889759 6678 misc optional ros-humble-moveit-resources_3.0.0-2024.12.19.14.04_amd64.deb
