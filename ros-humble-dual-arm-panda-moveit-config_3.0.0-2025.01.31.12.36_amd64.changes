@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 19 Feb 2024 00:00:00 -0000
+Source: ros-humble-dual-arm-panda-moveit-config
+Binary: ros-humble-dual-arm-panda-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2025.01.31.12.36
+Distribution: jammy
+Urgency: high
+Maintainer: Mike Lautman <mike@picknik.ai>
+Changed-By: Mike Lautman <mike@picknik.ai>
+Description:
+ ros-humble-dual-arm-panda-moveit-config - Dual Franka Emika Panda MoveIt Configuration
+Changes:
+ ros-humble-dual-arm-panda-moveit-config (3.0.0-2025.01.31.12.36) jammy; urgency=high
+ .
+   * Update ros2 control usage (#192 <https://github.com/ros-planning/moveit_resources/issues/192>)
+     * Update ros2_control usage
+     * Update dual_arm_panda_moveit_config/config/panda_hand.ros2_control.xacro
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+     ---------
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+   * Update planner configs (#191 <https://github.com/ros-planning/moveit_resources/issues/191>)
+   * Update planning pipeline configs (#189 <https://github.com/ros-planning/moveit_resources/issues/189>)
+   * fix warnings about deprecated load_yaml (#188 <https://github.com/ros-planning/moveit_resources/issues/188>)
+   * Contributors: Christian Rauch, Sebastian Jahr
+Checksums-Sha1:
+ 5ce89006a30d5886563c4f987ec9775ab136c6b5 9273 ros-humble-dual-arm-panda-moveit-config_3.0.0-2025.01.31.12.36_amd64.buildinfo
+ 69afa35434cc6f7f693ac9fa5053ed6d5187f774 15440 ros-humble-dual-arm-panda-moveit-config_3.0.0-2025.01.31.12.36_amd64.deb
+Checksums-Sha256:
+ 611c376d3bb597114448b3eefbfdeb9cc108fced445b488d525d13f5058d5034 9273 ros-humble-dual-arm-panda-moveit-config_3.0.0-2025.01.31.12.36_amd64.buildinfo
+ 8a2f9e2788ec4e44399e00f87b922689157994d519a0a566a93ae8a33b31a4a3 15440 ros-humble-dual-arm-panda-moveit-config_3.0.0-2025.01.31.12.36_amd64.deb
+Files:
+ 0ef74d1aadcff0d1024bdc68c04e4154 9273 misc optional ros-humble-dual-arm-panda-moveit-config_3.0.0-2025.01.31.12.36_amd64.buildinfo
+ 00a29142081879d7022e309d5ba23dfd 15440 misc optional ros-humble-dual-arm-panda-moveit-config_3.0.0-2025.01.31.12.36_amd64.deb

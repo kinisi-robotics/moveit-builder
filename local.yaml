@@ -1,0 +1,156 @@
+moveit_common:
+  ubuntu:
+  - ros-humble-moveit-common
+moveit_configs_utils:
+  ubuntu:
+  - ros-humble-moveit-configs-utils
+moveit_msgs:
+  ubuntu:
+  - ros-humble-moveit-msgs
+moveit_resources_fanuc_description:
+  ubuntu:
+  - ros-humble-moveit-resources-fanuc-description
+moveit_resources_panda_description:
+  ubuntu:
+  - ros-humble-moveit-resources-panda-description
+moveit_resources_pr2_description:
+  ubuntu:
+  - ros-humble-moveit-resources-pr2-description
+moveit_resources_prbt_support:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-support
+trac_ik_lib:
+  ubuntu:
+  - ros-humble-trac-ik-lib
+dual_arm_panda_moveit_config:
+  ubuntu:
+  - ros-humble-dual-arm-panda-moveit-config
+moveit_resources_fanuc_moveit_config:
+  ubuntu:
+  - ros-humble-moveit-resources-fanuc-moveit-config
+moveit_resources_panda_moveit_config:
+  ubuntu:
+  - ros-humble-moveit-resources-panda-moveit-config
+moveit_core:
+  ubuntu:
+  - ros-humble-moveit-core
+moveit_resources:
+  ubuntu:
+  - ros-humble-moveit-resources
+chomp_motion_planner:
+  ubuntu:
+  - ros-humble-chomp-motion-planner
+moveit_planners_stomp:
+  ubuntu:
+  - ros-humble-moveit-planners-stomp
+moveit_resources_prbt_ikfast_manipulator_plugin:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+moveit_ros_occupancy_map_monitor:
+  ubuntu:
+  - ros-humble-moveit-ros-occupancy-map-monitor
+moveit_simple_controller_manager:
+  ubuntu:
+  - ros-humble-moveit-simple-controller-manager
+pilz_industrial_motion_planner_testutils:
+  ubuntu:
+  - ros-humble-pilz-industrial-motion-planner-testutils
+trac_ik_kinematics_plugin:
+  ubuntu:
+  - ros-humble-trac-ik-kinematics-plugin
+moveit_planners_chomp:
+  ubuntu:
+  - ros-humble-moveit-planners-chomp
+moveit_plugins:
+  ubuntu:
+  - ros-humble-moveit-plugins
+moveit_ros_control_interface:
+  ubuntu:
+  - ros-humble-moveit-ros-control-interface
+moveit_ros_planning:
+  ubuntu:
+  - ros-humble-moveit-ros-planning
+trac_ik:
+  ubuntu:
+  - ros-humble-trac-ik
+moveit_kinematics:
+  ubuntu:
+  - ros-humble-moveit-kinematics
+moveit_planners_ompl:
+  ubuntu:
+  - ros-humble-moveit-planners-ompl
+moveit_ros_perception:
+  ubuntu:
+  - ros-humble-moveit-ros-perception
+moveit_ros_robot_interaction:
+  ubuntu:
+  - ros-humble-moveit-ros-robot-interaction
+moveit_ros_warehouse:
+  ubuntu:
+  - ros-humble-moveit-ros-warehouse
+moveit_ros_benchmarks:
+  ubuntu:
+  - ros-humble-moveit-ros-benchmarks
+moveit_ros_move_group:
+  ubuntu:
+  - ros-humble-moveit-ros-move-group
+moveit_resources_prbt_moveit_config:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-moveit-config
+moveit_ros_planning_interface:
+  ubuntu:
+  - ros-humble-moveit-ros-planning-interface
+moveit_hybrid_planning:
+  ubuntu:
+  - ros-humble-moveit-hybrid-planning
+moveit_py:
+  ubuntu:
+  - ros-humble-moveit-py
+moveit_resources_prbt_pg70_support:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-pg70-support
+moveit_ros_visualization:
+  ubuntu:
+  - ros-humble-moveit-ros-visualization
+moveit_ros:
+  ubuntu:
+  - ros-humble-moveit-ros
+moveit_servo:
+  ubuntu:
+  - ros-humble-moveit-servo
+moveit_setup_framework:
+  ubuntu:
+  - ros-humble-moveit-setup-framework
+pilz_industrial_motion_planner:
+  ubuntu:
+  - ros-humble-pilz-industrial-motion-planner
+moveit_planners:
+  ubuntu:
+  - ros-humble-moveit-planners
+moveit_ros_tests:
+  ubuntu:
+  - ros-humble-moveit-ros-tests
+moveit_ros_trajectory_cache:
+  ubuntu:
+  - ros-humble-moveit-ros-trajectory-cache
+moveit_setup_app_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-app-plugins
+moveit_setup_controllers:
+  ubuntu:
+  - ros-humble-moveit-setup-controllers
+moveit_setup_core_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-core-plugins
+moveit_setup_srdf_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-srdf-plugins
+moveit_runtime:
+  ubuntu:
+  - ros-humble-moveit-runtime
+moveit_setup_assistant:
+  ubuntu:
+  - ros-humble-moveit-setup-assistant
+moveit:
+  ubuntu:
+  - ros-humble-moveit
