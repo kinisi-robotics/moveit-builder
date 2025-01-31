@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 12 Apr 2024 00:00:00 -0000
+Source: ros-humble-trac-ik
+Binary: ros-humble-trac-ik
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.1-2-ga8ad111-2025.01.31.18.31
+Distribution: jammy
+Urgency: high
+Maintainer: TRACLabs Robotics <robotics@traclabs.com>
+Changed-By: TRACLabs Robotics <robotics@traclabs.com>
+Description:
+ ros-humble-trac-ik - The ROS packages in this repository were created to provide an im
+Changes:
+ ros-humble-trac-ik (2.0.1-2-ga8ad111-2025.01.31.18.31) jammy; urgency=high
+Checksums-Sha1:
+ 76db86f1c1fdcaf94efcac0ea6c8d65112385a18 9209 ros-humble-trac-ik_2.0.1-2-ga8ad111-2025.01.31.18.31_amd64.buildinfo
+ 5fad7452b14149bc32310c25b7efb60fe9e51d6b 7966 ros-humble-trac-ik_2.0.1-2-ga8ad111-2025.01.31.18.31_amd64.deb
+Checksums-Sha256:
+ 638728f29f3d7a13feb5faa327c917e1aa7795024dbf4be031c5b9d1bb9f0160 9209 ros-humble-trac-ik_2.0.1-2-ga8ad111-2025.01.31.18.31_amd64.buildinfo
+ bb988058fe0d1acef27feea80935896caa2f2dd0d4189d4f8342721c7afde6df 7966 ros-humble-trac-ik_2.0.1-2-ga8ad111-2025.01.31.18.31_amd64.deb
+Files:
+ 37734cf4345678cde22639af9bd95dc8 9209 misc optional ros-humble-trac-ik_2.0.1-2-ga8ad111-2025.01.31.18.31_amd64.buildinfo
+ 898bd37a702959a366e7c9ad6da395f8 7966 misc optional ros-humble-trac-ik_2.0.1-2-ga8ad111-2025.01.31.18.31_amd64.deb
