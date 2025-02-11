@@ -1,8 +1,8 @@
 repositories:
   moveit2:
     type: git
-    url: https://github.com/JafarAbdi/moveit2.git
-    version: 125.0.0
+    url: https://github.com/blooop/moveit2.git
+    version: 126.0.0
   moveit_msgs:
     type: git
     url: https://github.com/moveit/moveit_msgs.git
