@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: larger-runner-2
     env:
       DEB_DISTRO: jammy
     steps:
