@@ -19,6 +19,9 @@ jobs:
     env:
       DEB_DISTRO: jammy
     steps:
+      - name: Download ROS Key
+        run: |
+          curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o "/home/runner/work/moveit-builder/moveit-builder/ros.key"
       - name: ROS buildfarm
         uses: snknitheesh/ros-deb-builder-action@main
         with:
