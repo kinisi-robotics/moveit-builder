@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: test-home
+    runs-on: ubuntu-24.04
     env:
       DEB_DISTRO: jammy
     steps:
@@ -27,9 +27,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_ROS_REPOSITORY: true
           SBUILD_CONF: |
+            $enable_network = 1;
             $extra_repositories = ["deb http://snapshots.ros.org/${{ env.ROS_DISTRO }}/${{ env.SYNC_DATESTAMP }}/ubuntu ${{ env.DEB_DISTRO }} main"];
             $extra_repository_keys = ["/home/runner/work/moveit-builder/moveit-builder/ros.key"];
-            $enable_network = 1;
           SQUASH_HISTORY: true
           REPOS_FILE: sources.repos
           PACKAGES_BRANCH: ${{ env.VERSION }}
