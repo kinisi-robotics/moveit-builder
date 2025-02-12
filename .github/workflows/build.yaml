@@ -5,7 +5,7 @@ on:
   push:
 
 env:
-  SYNC_DATESTAMP: "2024-12-21"
+  SYNC_DATESTAMP: "2024-12-20"
   ROS_DISTRO: humble
   VERSION: "125.0.0"
 permissions:
@@ -30,6 +30,6 @@ jobs:
             $extra_repositories = ["deb http://snapshots.ros.org/${{ env.ROS_DISTRO }}/${{ env.SYNC_DATESTAMP }}/ubuntu ${{ env.DEB_DISTRO }} main"];
             $extra_repository_keys = ["/home/runner/work/moveit-builder/moveit-builder/ros.key"];
             $enable_network = 1;
-          SQUASH_HISTORY: true
+          SQUASH_HISTORY: false
           REPOS_FILE: sources.repos
           PACKAGES_BRANCH: ${{ env.VERSION }}
