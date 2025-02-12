@@ -5,7 +5,7 @@ on:
   push:
 
 env:
-  SYNC_DATESTAMP: "2024-12-20"
+  SYNC_DATESTAMP: "2024-12-21"
   ROS_DISTRO: humble
   VERSION: "125.0.0"
 permissions:
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     env:
       DEB_DISTRO: jammy
     steps:
