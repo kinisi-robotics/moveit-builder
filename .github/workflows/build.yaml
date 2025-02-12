@@ -7,7 +7,7 @@ on:
 env:
   SYNC_DATESTAMP: "2024-12-20"
   ROS_DISTRO: humble
-  VERSION: "125.0.0"
+  VERSION: "126.0.0"
 permissions:
   contents: write
   packages: write
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     env:
       DEB_DISTRO: jammy
     steps:
