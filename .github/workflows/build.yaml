@@ -15,12 +15,12 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: test-home
     env:
       DEB_DISTRO: jammy
     steps:
       - name: ROS buildfarm
-        uses: jspricke/ros-deb-builder-action@main
+        uses: snknitheesh/ros-deb-builder-action@main
         with:
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
