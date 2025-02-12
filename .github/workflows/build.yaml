@@ -5,7 +5,7 @@ on:
   push:
 
 env:
-  SYNC_DATESTAMP: "2025-01-21"
+  SYNC_DATESTAMP: "2024-12-20"
   ROS_DISTRO: humble
   VERSION: "126.0.0"
 permissions:
