@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: test-home
     env:
       DEB_DISTRO: jammy
     steps:
