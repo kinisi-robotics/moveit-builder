@@ -7,7 +7,7 @@ on:
 env:
   SYNC_DATESTAMP: "2024-12-20"
   ROS_DISTRO: humble
-  VERSION: "125.0.0"
+  VERSION: "100.0.5"
 permissions:
   contents: write
   packages: write
