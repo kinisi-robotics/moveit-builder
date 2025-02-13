@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: moveitX86
+    runs-on: large-runner-2
     env:
       DEB_DISTRO: jammy
     steps:
